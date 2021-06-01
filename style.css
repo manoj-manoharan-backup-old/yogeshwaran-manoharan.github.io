@@ -1,0 +1,15 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profile-img {
+    height: 200px;
+}
+
+.skills {
+    background-color: #9ef1a4;
+    margin : 5px;
+    padding : 10px;
+    border-radius: 10px;
+    border: 1px solid #93f19a;
+}
