@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <h1>Tech Blog Feed</h1>
+</div>
+
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-sm-4">
+            <p><br/></p>
+            <ul id="dates-navbar" class="nav nav-pills nav-stacked">
+<!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
+                <!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
+            </ul>
+            <hr class="hidden-sm hidden-md hidden-lg">
+        </div>
+        <div class="col-sm-8">
+            <div id="blog-feed">
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    const LOCAL = "yogeshwaran-manoharan";
+
+    const DOMAIN = window.location.origin;
+    const URI = "tech-blog/api";
+
+    const BUILT_URI = (DOMAIN.includes("localhost")) ? LOCAL + "/" + URI : "tech-blog";
+
+    ($(document).ready(function () {
+
+        $.ajax({
+            url: DOMAIN + "/" + BUILT_URI + "/dates.json",
+            type: "GET",
+            success: function (dataResult) {
+
+                let resultHtml = ``;
+
+                dataResult.forEach((date) => {
+                    resultHtml += `<li class="date-nav-selection"><a href="#">${date}</a></li>`;
+                })
+
+                $("#dates-navbar").html(resultHtml);
+            }
+        });
+
+        $(document).on("click", ".date-nav-selection", function (e) {
+
+            const date = e.target.innerText;
+
+            $.ajax({
+                url: DOMAIN + "/" + BUILT_URI + "/" + date + ".json",
+                type: "GET",
+                success: function (dataResult) {
+
+                    let resultHtml = ``;
+
+                    for (let i = 0; i < dataResult.length; i++) {
+                        resultHtml += `
+                        <div class="card">
+                            <a href="${dataResult[i].link}">
+                                <h2>${dataResult[i].title || ""}</h2>
+                                <h5>${dataResult[i].description || ""}</h5>
+                            </a>
+                        </div>
+                         <br>
+                        `
+                    }
+
+                    $('#blog-feed').html((resultHtml.length > 0) ? resultHtml : "No articles available.");
+                },
+                error : function (){
+                    $('#blog-feed').html("No articles available.");
+                }
+            });
+        })
+    }))();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "The Architecture of Uber’s API gateway",
+    "link": "https://eng.uber.com/architecture-api-gateway/",
+    "description": "<h1>                   <span style=\"font-weight: 400;\">Motivation for a Better Go Profiler</span>               </h1>               <p><span style=\"font-weight: 400;\">Golang is the lifeblood of thousands of Uber’s back-end services,                   running on millions of CPU cores. Understanding our CPU bottlenecks is critical, both for reducing                   service latencies and also for making our compute fleet</span>&#8230;               </p>               <p>The post <a rel=\"nofollow\" href=\"https://eng.uber.com/pprof-go-profiler/\">pprof++: A Go Profiler with                   Hardware Performance Monitoring               </a> appeared first on <a rel=\"nofollow\" href=\"https://eng.uber.com\">Uber Engineering Blog</a>.               </p> "
+  },
+  {
+    "title": "The Architecture of Uber’s API gateway",
+    "link": "https://eng.uber.com/architecture-api-gateway/",
+    "description": "API gateways are an integral part of microservices architecture in recent years. An API gateway provides a single point of entry for all our apps and provides an interface to access data, logic, or functionality from back-end microservices. It also provides a centralized place to implement many high-level responsibilities, including routing, protocol conversion, rate limiting, load shedding, header enrichment..."
+  }
+]

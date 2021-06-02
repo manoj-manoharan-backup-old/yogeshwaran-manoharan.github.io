@@ -1,0 +1,14 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    padding : 10px;
+    border-radius: 5px;
+    border: 1px solid #f3efef;
+}
+
+.card > a {
+    color: black;
+    font-style: normal;
+}
