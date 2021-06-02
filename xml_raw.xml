@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+>
+
+    <channel>
+        <title>Uber Engineering Blog</title>
+        <atom:link href="https://eng.uber.com/feed/" rel="self" type="application/rss+xml"/>
+        <link>https://eng.uber.com</link>
+        <description>Software engineering and technologies that set the world in motion</description>
+        <lastBuildDate>Mon, 24 May 2021 16:39:14 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly
+        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1
+        </sy:updateFrequency>
+        <generator>https://wordpress.org/?v=5.7.2</generator>
+
+        <image>
+            <url>https://eng.uber.com/wp-content/uploads/2018/09/favicon.png</url>
+            <title>Uber Engineering Blog</title>
+            <link>https://eng.uber.com</link>
+            <width>32</width>
+            <height>32</height>
+        </image>
+        <item>
+            <title>Fraud Detection: Using Relational Graph Learning to Detect Collusion</title>
+            <link>https://eng.uber.com/fraud-detection/</link>
+
+            <dc:creator>Xinyu Hu></dc:creator>
+            <pubDate>Fri, 21 May 2021 16:21:34 +0000</pubDate>
+            <category>Artificial Intelligence / Machine Learning></category>
+            <category>Research></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8658</guid>
+
+            <description>
+                <p><span style="font-weight: 400;">As Uber grew in popularity and scale among legitimate customers, it
+                    also attracted the attention of financial criminals in the cyberspace. One type of fraudulent
+                    behavior is collusion, a cooperative fraud action among users. For example, users collude by
+                    taking</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/fraud-detection/">Fraud Detection: Using
+                    Relational Graph Learning to Detect Collusion
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>The Architecture of Uber&#8217;s API gateway</title>
+            <link>https://eng.uber.com/architecture-api-gateway/</link>
+
+            <dc:creator>Madan Thangavelu></dc:creator>
+            <pubDate>Wed, 19 May 2021 16:31:31 +0000</pubDate>
+            <category>Architecture></category>
+            <category>Developers></category>
+            <category>General Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8627</guid>
+
+            <description>
+                <p><span style="font-weight: 400;">API gateways are an integral part of microservices architecture in
+                    recent years. An API gateway provides a single point of entry for all our apps and provides an
+                    interface to access data, logic, or functionality from back-end microservices. It also</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/architecture-api-gateway/">The Architecture of
+                    Uber&#8217;s API gateway
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Introducing Orbit, An Open Source Package for Time Series Inference and Forecasting</title>
+            <link>https://eng.uber.com/orbit/</link>
+
+            <dc:creator>Edwin Ng></dc:creator>
+            <pubDate>Fri, 14 May 2021 16:34:13 +0000</pubDate>
+            <category>Data Science></category>
+            <category>Open Source></category>
+            <category>Bayesian></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8580</guid>
+
+            <description>
+                <p>
+                    <a href="https://github.com/uber/orbit">
+                        <span style="font-weight: 400;">Orbit</span>
+                    </a>
+                    <span style="font-weight: 400;">is a general interface for Bayesian time series modeling. The goal
+                        of Orbit development team is to create a tool that is easy to use, flexible, interitible, and
+                        high performing (fast computation). Under the hood, Orbit uses the probabilistic</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/orbit/">Introducing Orbit, An Open Source
+                    Package for Time Series Inference and Forecasting
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>pprof++: A Go Profiler with Hardware Performance Monitoring</title>
+            <link>https://eng.uber.com/pprof-go-profiler/</link>
+
+            <dc:creator>Milind Chabbi></dc:creator>
+            <pubDate>Tue, 11 May 2021 14:16:57 +0000</pubDate>
+            <category>Research></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8561</guid>
+
+            <description>
+                <h1>
+                    <span style="font-weight: 400;">Motivation for a Better Go Profiler</span>
+                </h1>
+                <p><span style="font-weight: 400;">Golang is the lifeblood of thousands of Uber’s back-end services,
+                    running on millions of CPU cores. Understanding our CPU bottlenecks is critical, both for reducing
+                    service latencies and also for making our compute fleet</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/pprof-go-profiler/">pprof++: A Go Profiler with
+                    Hardware Performance Monitoring
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Optimal Feature Discovery: Better, Leaner Machine Learning Models Through Information Theory</title>
+            <link>https://eng.uber.com/optimal-feature-discovery-ml/</link>
+
+            <dc:creator>Adam Wang></dc:creator>
+            <pubDate>Thu, 06 May 2021 16:48:01 +0000</pubDate>
+            <category>Machine Learning></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8547</guid>
+
+            <description>
+                <h1>
+                    <span style="font-weight: 400;">Introduction</span>
+                </h1>
+                <p><span style="font-weight: 400;">Suppose you own a production ML model that already works reasonably
+                    well. You know that adding relevant and diverse sources of signal to your model is a sure way to
+                    boost performance, but finding new features that actually improve</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/optimal-feature-discovery-ml/">Optimal Feature
+                    Discovery: Better, Leaner Machine Learning Models Through Information Theory
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Automating Merchant Live Monitoring with Real-Time Analytics: Charon</title>
+            <link>https://eng.uber.com/charon/</link>
+
+            <dc:creator>Marco Vita></dc:creator>
+            <pubDate>Thu, 29 Apr 2021 16:34:50 +0000</pubDate>
+            <category>Uber Data></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8535</guid>
+
+            <description>
+                <p>
+                    <span style="font-weight: 400;">At Uber, live monitoring and automation of Ops is critical to
+                        preserve marketplace health, maintain reliability, and gain efficiency in markets. By the virtue
+                        of the word “live”, this monitoring needs to show what is happening
+                    </span>
+                    <i>
+                        <span style="font-weight: 400;">now,</span>
+                    </i>
+                    <span style="font-weight: 400;">with prompt access</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/charon/">Automating Merchant Live Monitoring
+                    with Real-Time Analytics: Charon
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Freight Pricing with a Controlled Markov Decision Process</title>
+            <link>https://eng.uber.com/freight-markov/</link>
+
+            <dc:creator>Guillaume De Roo></dc:creator>
+            <pubDate>Tue, 27 Apr 2021 15:59:06 +0000</pubDate>
+            <category>Data></category>
+            <category>Machine Learning></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8499</guid>
+
+            <description>
+                <h4>
+                    <span style="font-family: verdana, geneva, sans-serif;">
+                        <b>Intro</b>
+                    </span>
+                </h4>
+                <p>
+                    <span style="font-weight: 400;">Uber Freight was launched in 2017 to revolutionize the business of
+                        matching shippers and carriers in the huge and inefficient freight trucking industry (around
+                    </span>
+                    <a href="https://www.statista.com/topics/4912/trucking-industry-in-the-us/">
+                        <span style="font-weight: 400;">$800B</span>
+                    </a>
+                    <span style="font-weight: 400;">annual spend in the US). We believe, and have demonstrated, that a
+                        technology-first freight</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/freight-markov/">Freight Pricing with a
+                    Controlled Markov Decision Process
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Flipr: Making Changes Quickly and Safely at Scale</title>
+            <link>https://eng.uber.com/flipr/</link>
+
+            <dc:creator>Andy Maule></dc:creator>
+            <pubDate>Mon, 12 Apr 2021 17:42:06 +0000</pubDate>
+            <category>Architecture></category>
+            <category>General Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8484</guid>
+
+            <description>
+                <h2>
+                    <span style="font-weight: 400;">Introduction</span>
+                </h2>
+                <p>
+                    <span style="font-weight: 400;">Uber’s many software systems require a high volume of changes every
+                        day. Because of our systems’ size and complexity, it is a significant challenge to implement
+                        these changes without unintended consequences, ultimately slowing down developer productivity.
+                    </span>
+                    <i>
+                        <span style="font-weight: 400;">Flipr</span>
+                    </i>
+                    <span style="font-weight: 400;">is a</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/flipr/">Flipr: Making Changes Quickly and
+                    Safely at Scale
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Uber&#8217;s Journey Toward Better Data Culture From First Principles</title>
+            <link>https://eng.uber.com/ubers-journey-toward-better-data-culture-from-first-principles/</link>
+
+            <dc:creator>Krishna Puttaswamy></dc:creator>
+            <pubDate>Tue, 16 Mar 2021 16:07:49 +0000</pubDate>
+            <category>Uber Data></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8477</guid>
+
+            <description>
+                <h2>
+                    <span style="font-weight: 400;">Data powers Uber</span>
+                </h2>
+                <p><span style="font-weight: 400;">Uber has revolutionized how the world moves by powering billions of
+                    rides and deliveries connecting millions of riders, businesses, restaurants, drivers, and couriers.
+                    At the heart of this massive transportation platform is Big Data and Data Science</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow"
+                               href="https://eng.uber.com/ubers-journey-toward-better-data-culture-from-first-principles/">
+                    Uber&#8217;s Journey Toward Better Data Culture From First Principles
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Navigating to the Technical Program Management and Learning Team</title>
+            <link>https://eng.uber.com/tpm-and-learning-team/</link>
+
+            <dc:creator>Uber Technical Program Management and Learning (TPML) team></dc:creator>
+            <pubDate>Fri, 12 Mar 2021 16:54:06 +0000</pubDate>
+            <category>Team Profile></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8468</guid>
+
+            <description>
+                <p>Spread across 4 continents, the Technical Strategy, Program Management, and Learning team is composed
+                    of Technical Program Managers (TPMs), Technical Writers, Technical Strategists, and Technical
+                    Training Program Managers.
+                </p>
+                <p><span style="font-weight: 400;">Uber TPMs play a critical role in executing high-impact, company-wide
+                    initiatives and</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/tpm-and-learning-team/">Navigating to the
+                    Technical Program Management and Learning Team
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Elastic Deep Learning with Horovod on Ray</title>
+            <link>https://eng.uber.com/horovod-ray/</link>
+
+            <dc:creator>Travis Addair></dc:creator>
+            <pubDate>Mon, 08 Mar 2021 17:00:19 +0000</pubDate>
+            <category>Machine Learning></category>
+            <category>Open Source></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8450</guid>
+
+            <description>
+                <h2>
+                    <span style="font-weight: 400;">Introduction</span>
+                </h2>
+                <p>
+                    <span style="font-weight: 400;">In 2017, we introduced</span>
+                    <a href="https://eng.uber.com/horovod/">
+                        <span style="font-weight: 400;">Horovod</span>
+                    </a>
+                    <span style="font-weight: 400;">, an open source framework for scaling deep learning training across
+                        hundreds of GPUs in parallel. At the time, most of the deep learning use cases at Uber were
+                        related to the research and</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/horovod-ray/">Elastic Deep Learning with
+                    Horovod on Ray
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Applying Machine Learning in Internal Audit with Sparsely Labeled Data</title>
+            <link>https://eng.uber.com/ml-internal-audit/</link>
+
+            <dc:creator>Jesse He></dc:creator>
+            <pubDate>Tue, 02 Mar 2021 16:58:29 +0000</pubDate>
+            <category>Artificial Intelligence / Machine Learning></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8432</guid>
+
+            <description>
+                <p>As machine learning continues to evolve, transforming the various industries it touches, it has only
+                    begun to inform the world of audit. As a data scientist and former CPA Auditor, I can understand why
+                    this is the case. By nature, &#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/ml-internal-audit/">Applying Machine Learning
+                    in Internal Audit with Sparsely Labeled Data
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>How Uber Deals with Large iOS App Size</title>
+            <link>https://eng.uber.com/how-uber-deals-with-large-ios-app-size/</link>
+
+            <dc:creator>Milind Chabbi></dc:creator>
+            <pubDate>Fri, 26 Feb 2021 16:30:22 +0000</pubDate>
+            <category>General Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8409</guid>
+
+            <description>
+                <h1>
+                    <span style="font-weight: 400;">The App Size Problem</span>
+                </h1>
+                <p>
+                    <span style="font-weight: 400;">Uber’s iOS mobile Apps for Rider, Driver, and Eats are large in
+                        size. The choice of
+                    </span>
+                    <a href="https://swift.org/swift-compiler/">
+                        <span style="font-weight: 400;">Swift</span>
+                    </a>
+                    <span style="font-weight: 400;">as our primary programming language, our fast-paced development
+                        environment and feature additions, layered software and its dependencies, and statically</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/how-uber-deals-with-large-ios-app-size/">How
+                    Uber Deals with Large iOS App Size
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Evolving Schemaless into a Distributed SQL Database</title>
+            <link>https://eng.uber.com/schemaless-sql-database/</link>
+
+            <dc:creator>Ovais Tariq></dc:creator>
+            <pubDate>Tue, 23 Feb 2021 17:38:17 +0000</pubDate>
+            <category>General Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8397</guid>
+
+            <description>
+                <h1>
+                    <span style="font-weight: 400;">Introduction</span>
+                </h1>
+                <p>
+                    <span style="font-weight: 400;">In 2016 we published blog posts (</span>
+                    <a href="https://eng.uber.com/schemaless-part-one-mysql-datastore/">
+                        <span style="font-weight: 400;">I</span>
+                    </a>
+                    <span style="font-weight: 400;">,</span>
+                    <a href="https://eng.uber.com/schemaless-part-two-architecture/">
+                        <span style="font-weight: 400;">II</span>
+                    </a>
+                    <span style="font-weight: 400;">) about Schemaless &#8211; Uber Engineering’s Scalable Datastore. We
+                        went over the design of Schemaless as well as explained the reasoning behind developing it. In
+                        this post today we</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/schemaless-sql-database/">Evolving Schemaless
+                    into a Distributed SQL Database
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Fast and Reliable Schema-Agnostic Log Analytics Platform</title>
+            <link>https://eng.uber.com/logging/</link>
+
+            <dc:creator>Chao Wang></dc:creator>
+            <pubDate>Fri, 19 Feb 2021 17:00:22 +0000</pubDate>
+            <category>General Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8380</guid>
+
+            <description>
+                <p><span style="font-weight: 400;">At Uber, we provide a centralized, reliable, and interactive logging
+                    platform that empowers engineers to work quickly and confidently at scale. The logs are tagged with
+                    a rich set of contextual key value pairs, with which engineers can slice and</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/logging/">Fast and Reliable Schema-Agnostic Log
+                    Analytics Platform
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Uber&#8217;s Real-time Data Intelligence Platform At Scale: Improving Gairos
+                Scalability/Reliability
+            </title>
+            <link>https://eng.uber.com/gairos-scalability/</link>
+
+            <dc:creator>Gang Zhao></dc:creator>
+            <pubDate>Tue, 19 Jan 2021 17:01:48 +0000</pubDate>
+            <category>General Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8341</guid>
+
+            <description>
+                <h2>
+                    <span style="font-weight: 400;">Background</span>
+                </h2>
+                <p>
+                    <span style="font-weight: 400;">Real-time data (# of ride requests, # of drivers available, weather,
+                        game)
+                    </span>
+                    <span style="font-weight: 400;">enables operations teams to make informed decisions like</span>
+                    <a href="https://www.uber.com/drive/partner-app/how-surge-works/">
+                        <span style="font-weight: 400;">surge pricing</span>
+                    </a>
+                    <span style="font-weight: 400;">,</span>
+                    <span style="font-weight: 400;">maximum dispatch ETA calculating, and demand/supply forecasting
+                    </span>
+                    <span style="font-weight: 400;">about our services that improve user experiences on the</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/gairos-scalability/">Uber&#8217;s Real-time
+                    Data Intelligence Platform At Scale: Improving Gairos Scalability/Reliability
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>The Journey Towards Metric Standardization</title>
+            <link>https://eng.uber.com/umetric/</link>
+
+            <dc:creator>Xiaodong Wang></dc:creator>
+            <pubDate>Tue, 12 Jan 2021 17:14:00 +0000</pubDate>
+            <category>General Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8321</guid>
+
+            <description>
+                <p><span style="font-weight: 400;">At Uber, business metrics are vital for discovering insights about
+                    how we perform, gauging the impact of new products, and optimizing the decision making process. The
+                    use cases for metrics can range from an operations member diagnosing a fares issue</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/umetric/">The Journey Towards Metric
+                    Standardization
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Disaster Recovery for Multi-Region Kafka at Uber</title>
+            <link>https://eng.uber.com/kafka/</link>
+
+            <dc:creator>Yupeng Fu></dc:creator>
+            <pubDate>Mon, 21 Dec 2020 17:00:07 +0000</pubDate>
+            <category>Uncategorized></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8310</guid>
+
+            <description>
+                <h2>
+                    <span style="font-weight: 400;">Apache Kafka at Uber</span>
+                </h2>
+                <p><span style="font-weight: 400;">Uber has one of the largest deployments of Apache Kafka in the world,
+                    processing trillions of messages and multiple petabytes of data per day. As Figure 1 shows, today we
+                    position Apache Kafka as a cornerstone</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/kafka/">Disaster Recovery for Multi-Region
+                    Kafka at Uber
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Uber’s Real-Time Push Platform</title>
+            <link>https://eng.uber.com/real-time-push-platform/</link>
+
+            <dc:creator>Uday Kiran Medisetty></dc:creator>
+            <pubDate>Fri, 18 Dec 2020 17:01:17 +0000</pubDate>
+            <category>General Engineering></category>
+            <category>Uncategorized></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8297</guid>
+
+            <description>
+                <p>
+                    <span style="font-weight: 400;">Uber builds multi-sided marketplaces handling millions of trips
+                        every day across the globe. We strive to build real-time experiences for all our users.
+                    </span>
+                </p>
+                <p><span style="font-weight: 400;">The nature of real time marketplaces make them very lively. Over the
+                    course of a trip, there</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/real-time-push-platform/">Uber’s Real-Time Push
+                    Platform
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>No Code Workflow Orchestrator for Building Batch &#038; Streaming Pipelines at Scale</title>
+            <link>https://eng.uber.com/no-code-workflow-orchestrator/</link>
+
+            <dc:creator>Sriharsha Chintalapani></dc:creator>
+            <pubDate>Fri, 11 Dec 2020 17:00:36 +0000</pubDate>
+            <category>Uncategorized></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8279</guid>
+
+            <description>
+                <h1>
+                    <span style="font-weight: 400;">Data-In-Motion @ Uber</span>
+                </h1>
+                <p>
+                    <span style="font-family: verdana, geneva, sans-serif;">
+                        <span style="font-weight: 400;">At Uber, several petabytes of data move across and within
+                            various platforms every day. We power this data movement by a strong backbone of data
+                            pipelines. Whether it’s ingesting the data from millions of Uber trips or
+                        </span>
+                    </span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/no-code-workflow-orchestrator/">No Code
+                    Workflow Orchestrator for Building Batch &#038; Streaming Pipelines at Scale
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Horovod v0.21: Optimizing Network Utilization with Local Gradient Aggregation and Grouped Allreduce
+            </title>
+            <link>https://eng.uber.com/horovod-v0-21/</link>
+
+            <dc:creator>Travis Addair></dc:creator>
+            <pubDate>Tue, 24 Nov 2020 17:00:06 +0000</pubDate>
+            <category>Machine Learning></category>
+            <category>Open Source></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8262</guid>
+
+            <description>
+                <p>
+                    <span style="font-family: verdana, geneva, sans-serif;">
+                        <span style="font-weight: 400;">We originally open-sourced</span>
+                        <a href="https://eng.uber.com/horovod/">
+                            <span style="font-weight: 400;">Horovod</span>
+                        </a>
+                        <span style="font-weight: 400;">in 2017, and since then it has grown to become the standard
+                            solution in industry for scaling deep learning training to hundreds of GPUs. With Horovod,
+                            you can reduce training times from days or weeks to
+                        </span>
+                    </span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/horovod-v0-21/">Horovod v0.21: Optimizing
+                    Network Utilization with Local Gradient Aggregation and Grouped Allreduce
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Turning Metadata Into Insights with Databook</title>
+            <link>https://eng.uber.com/metadata-insights-databook/</link>
+
+            <dc:creator>Sunheng Taing></dc:creator>
+            <pubDate>Tue, 10 Nov 2020 17:00:04 +0000</pubDate>
+            <category>General Engineering></category>
+            <category>Uber Data></category>
+            <category>Uncategorized></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8243</guid>
+
+            <description>
+                <p><span style="font-weight: 400;">Every day in over 10,000 cities around the world, millions of people
+                    rely on Uber to travel, order food, and ship cargo. Our apps and services are available in over 69
+                    countries and run 24 hours a day. At our</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/metadata-insights-databook/">Turning Metadata
+                    Into Insights with Databook
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Meet the 2020 Safety Engineering Interns: COVID Edition</title>
+            <link>https://eng.uber.com/safety-engineering-interns-2020/</link>
+
+            <dc:creator>Safety Engineering Interns></dc:creator>
+            <pubDate>Thu, 29 Oct 2020 16:00:04 +0000</pubDate>
+            <category>Culture></category>
+            <category>General Engineering></category>
+            <category>Team Profile></category>
+            <category>Uber Engineering Internship></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8232</guid>
+
+            <description>
+                <p>
+                    <b>About the Safety team &#38; What we do</b>
+                </p>
+                <p><span style="font-weight: 400;">Uber is dedicated to keeping people safe on the road. The Safety and
+                    Insurance Engineering team is at the core of Uber’s business. We work to redefine what it takes to
+                    be</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/safety-engineering-interns-2020/">Meet the 2020
+                    Safety Engineering Interns: COVID Edition
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Operating Apache Pinot @ Uber Scale</title>
+            <link>https://eng.uber.com/operating-apache-pinot/</link>
+
+            <dc:creator>Yupeng Fu></dc:creator>
+            <pubDate>Tue, 20 Oct 2020 16:01:16 +0000</pubDate>
+            <category>Open Source></category>
+            <category>Uber Data></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8212</guid>
+
+            <description>
+                <h2>
+                    <span style="font-weight: 400;">Introduction</span>
+                </h2>
+                <p><span style="font-weight: 400;">Uber has a complex marketplace consisting of riders, drivers, eaters,
+                    restaurants and so on. Operating that marketplace at a global scale requires real-time intelligence
+                    and decision making. For instance, identifying delayed Uber Eats orders or abandoned carts helps
+                    to</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/operating-apache-pinot/">Operating Apache Pinot
+                    @ Uber Scale
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Building from the Baltics: Meet the Uber Engineering Team in Vilnius, Lithuania</title>
+            <link>https://eng.uber.com/building-from-the-baltics-uber-vilnius/</link>
+
+            <dc:creator>Ieva Sapokaite></dc:creator>
+            <pubDate>Thu, 15 Oct 2020 06:00:46 +0000</pubDate>
+            <category>Culture></category>
+            <category>Team Profile></category>
+            <category>Core Infrastructure></category>
+            <category>Developer Productivity></category>
+            <category>Developer Tools></category>
+            <category>Infrastructure></category>
+            <category>Lithuania></category>
+            <category>Production Engineering></category>
+            <category>site reliability engineering></category>
+            <category>SRE></category>
+            <category>Storage Platform></category>
+            <category>Uber Vilnius></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=7787</guid>
+
+            <description>
+                <p>
+                    <span style="font-weight: 400;">When the site launched in 2014, the team at</span>
+                    <a href="https://eng.uber.com/locations/vilnius/">
+                        <span style="font-weight: 400;">Uber Engineering’s Vilnius, Lithuania</span>
+                    </a>
+                    <span style="font-weight: 400;">office consisted of two people working out of a co-working space.
+                        Six years later, the team has grown to 46 people, representing Uber&#8217;s Production
+                        Engineering, Core Platform,</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/building-from-the-baltics-uber-vilnius/">
+                    Building from the Baltics: Meet the Uber Engineering Team in Vilnius, Lithuania
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Ludwig v0.3 Introduces Hyperparameter Optimization, Transformers and TensorFlow 2 support</title>
+            <link>https://eng.uber.com/ludwig-v0-3/</link>
+
+            <dc:creator>Travis Addair></dc:creator>
+            <pubDate>Tue, 06 Oct 2020 16:03:17 +0000</pubDate>
+            <category>Artificial Intelligence / Machine Learning></category>
+            <category>Open Source></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8176</guid>
+
+            <description>
+                <p>
+                    <span style="font-weight: 400;">In February 2019, Uber</span>
+                    <span style="font-weight: 400;">released <a href="https://eng.uber.com/introducing-ludwig/">Ludwig,
+                        an open source, code-free deep learning (DL) toolbox
+                    </a>
+                    </span>
+                    <span style="font-weight: 400;">that gives non-programmers and advanced machine learning (ML)
+                        practitioners alike the power to develop models for a variety of DL tasks. With use cases
+                        spanning text</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/ludwig-v0-3/">Ludwig v0.3 Introduces
+                    Hyperparameter Optimization, Transformers and TensorFlow 2 support
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Revolutionizing Money Movements at Scale with Strong Data Consistency</title>
+            <link>https://eng.uber.com/money-scale-strong-data/</link>
+
+            <dc:creator>Aakriti Singla></dc:creator>
+            <pubDate>Fri, 02 Oct 2020 16:00:22 +0000</pubDate>
+            <category>Data></category>
+            <category>General Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8160</guid>
+
+            <description>
+                <p>
+                    <span style="font-family: verdana, geneva, sans-serif;">
+                        <span style="font-weight: 400;">Uber as a platform invites its users to</span>
+                        <span style="font-weight: 400;">leverage it</span>
+                        <span style="font-weight: 400;">, earn from it, and be delighted by it. Serving more than 18
+                            million requests per day, in 10,000+ cities, has enabled people to move freely and to think
+                            broadly
+                        </span>
+                    </span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/money-scale-strong-data/">Revolutionizing Money
+                    Movements at Scale with Strong Data Consistency
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Spearheading Open Source: A Conversation with Jim Jagielski, Staff Technical Program Manager with the
+                Uber Open Source Program Office
+            </title>
+            <link>https://eng.uber.com/spearheading-open-source-jim-jagielski/</link>
+
+            <dc:creator>Uber Open Source Office></dc:creator>
+            <pubDate>Thu, 24 Sep 2020 16:18:30 +0000</pubDate>
+            <category>Open Source></category>
+            <category>Team Profile></category>
+            <category>opensource></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8141</guid>
+
+            <description>
+                <p><span style="font-weight: 400;">Jim Jagielski&#8217;s fascination with open source software began out
+                    of necessity. He was working at NASA Goddard in the 1980s, and the agency had just received fancy
+                    new Macintosh computers loaded with Apple&#8217;s new A/UX operating system. There was only</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/spearheading-open-source-jim-jagielski/">
+                    Spearheading Open Source: A Conversation with Jim Jagielski, Staff Technical Program Manager with
+                    the Uber Open Source Program Office
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Designing Edge Gateway, Uber’s API Lifecycle Management Platform</title>
+            <link>https://eng.uber.com/gatewayuberapi/</link>
+
+            <dc:creator>Madan Thangavelu></dc:creator>
+            <pubDate>Tue, 18 Aug 2020 16:00:33 +0000</pubDate>
+            <category>Architecture></category>
+            <category>Developers></category>
+            <category>General Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8120</guid>
+
+            <description>
+                <p>
+                    <i>
+                        <span style="font-weight: 400;">The making of Edge Gateway, the highly-available and scalable
+                            self-serve gateway to configure, manage, and monitor APIs of every business domain at Uber.
+                        </span>
+                    </i>
+                </p>
+                <h2>Evolution of Uber&#8217;s API gateway</h2>
+                <p><span style="font-weight: 400;">In October 2014, Uber had started its journey of scale in what</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/gatewayuberapi/">Designing Edge Gateway, Uber’s
+                    API Lifecycle Management Platform
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Standing for Safety: Meet the Uber Sao Paulo Tech Team</title>
+            <link>https://eng.uber.com/meet-sao-paulo-tech/</link>
+
+            <dc:creator>Camila Carvalho></dc:creator>
+            <pubDate>Tue, 28 Jul 2020 13:01:20 +0000</pubDate>
+            <category>General Engineering></category>
+            <category>Team Profile></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8097</guid>
+
+            <description>
+                <p>
+                    <span style="font-weight: 400;">Located in the heart of Latin America’s largest city, the</span>
+                    <a href="https://eng.uber.com/locations/sao-paulo/">
+                        <span style="font-weight: 400;">Uber Sao Paulo Tech Center</span>
+                    </a>
+                    <span style="font-weight: 400;">was founded in late 2018 as a company-wide hub for Safety Tech. The
+                        team is composed of product managers, UX designers, engineers and data scientists.</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/meet-sao-paulo-tech/">Standing for Safety: Meet
+                    the Uber Sao Paulo Tech Team
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Introducing Domain-Oriented Microservice Architecture</title>
+            <link>https://eng.uber.com/microservice-architecture/</link>
+
+            <dc:creator>Adam Gluck></dc:creator>
+            <pubDate>Thu, 23 Jul 2020 16:01:24 +0000</pubDate>
+            <category>Architecture></category>
+            <category>General Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8086</guid>
+
+            <description>
+                <h1>
+                    <span style="font-weight: 400;">Introduction</span>
+                </h1>
+                <p><span style="font-weight: 400;">Recently there has been substantial discussion around the downsides
+                    of service oriented architectures and microservice architectures in particular. While only a few
+                    years ago, many people readily adopted microservice architectures due to the numerous benefits they
+                    provide such as</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/microservice-architecture/">Introducing
+                    Domain-Oriented Microservice Architecture
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Engineering Failover Handling in Uber&#8217;s Mobile Networking Infrastructure</title>
+            <link>https://eng.uber.com/eng-failover-handling/</link>
+
+            <dc:creator>Sivabalan Narayanan></dc:creator>
+            <pubDate>Tue, 14 Jul 2020 16:00:12 +0000</pubDate>
+            <category>General Engineering></category>
+            <category>Mobile></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8067</guid>
+
+            <description>
+                <p>&#160;</p>
+                <p><span style="font-weight: 400;">Millions of users use Uber’s applications everyday across the globe,
+                    accessing seamless transportation or meal delivery at the push of a button. To achieve this
+                    accessibility at scale, our mobile apps require low-latency and highly reliable network
+                    communication, regardless</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/eng-failover-handling/">Engineering Failover
+                    Handling in Uber&#8217;s Mobile Networking Infrastructure
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Fiber: Distributed Computing for AI Made Simple</title>
+            <link>https://eng.uber.com/fiberdistributed/</link>
+
+            <dc:creator>Jiale Zhi></dc:creator>
+            <pubDate>Tue, 30 Jun 2020 16:15:50 +0000</pubDate>
+            <category>AI></category>
+            <category>Artificial Intelligence / Machine Learning></category>
+            <category>Open Source></category>
+            <category>artificial intelligence></category>
+            <category>Machine Learning></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8044</guid>
+
+            <description>
+                <p>
+                    <i>
+                        <span style="font-weight: 400;">Project Homepage:</span>
+                    </i>
+                    <a href="https://github.com/uber/fiber">
+                        <span style="font-weight: 400;">GitHub</span>
+                    </a>
+                </p>
+                <p>
+                    <span style="font-weight: 400;">Over the past several years,</span>
+                    <a href="https://openai.com/blog/ai-and-compute/">
+                        <span style="font-weight: 400;">increasing processing power</span>
+                    </a>
+                    <span style="font-weight: 400;">of computing machines has led to an increase in machine learning
+                        advances. More and more, algorithms exploit parallelism and rely on distributed training to
+                        process an enormous amount of</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/fiberdistributed/">Fiber: Distributed Computing
+                    for AI Made Simple
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Editing Massive Geospatial Data Sets with nebula.gl</title>
+            <link>https://eng.uber.com/nebulagl/</link>
+
+            <dc:creator>Georgios Karnas></dc:creator>
+            <pubDate>Tue, 23 Jun 2020 16:00:03 +0000</pubDate>
+            <category>General Engineering></category>
+            <category>Open Source></category>
+            <category>Data Visualization></category>
+            <category>DataViz></category>
+            <category>deck.gl></category>
+            <category>ETAs></category>
+            <category>Front-End Dev></category>
+            <category>Frontend></category>
+            <category>geospatial visualization></category>
+            <category>Nebula.gl></category>
+            <category>OSS></category>
+            <category>Uber Engineering></category>
+            <category>Vis.gl></category>
+            <category>Web></category>
+            <category>Web Dev></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8030</guid>
+
+            <description>
+                <p>
+                    <span style="font-weight: 400;">Geospatial data, or data tied to a specific, real-world location, is
+                        integral to Uber’s ability to better understand the cities we serve. From predicting the
+                    </span>
+                    <a href="https://eng.uber.com/engineering-routing-engine/" target="_blank"
+                       rel="noopener noreferrer">
+                        <span style="font-weight: 400;">most accurate estimated times of arrival</span>
+                    </a>
+                    <span style="font-weight: 400;">(ETAs) to determining</span>
+                    <a href="https://eng.uber.com/making-a-real-world-impact-with-data-science/" target="_blank"
+                       rel="noopener noreferrer">
+                        <span style="font-weight: 400;">the best driving routes</span>
+                    </a>
+                    <span style="font-weight: 400;">, geospatial</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/nebulagl/">Editing Massive Geospatial Data Sets
+                    with nebula.gl
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Profiles in Coding: Diana Yanakiev, Uber ATG, Pittsburgh</title>
+            <link>https://eng.uber.com/profiles-in-coding-diana-yanakiev/</link>
+
+            <dc:creator>Bea Schuster></dc:creator>
+            <pubDate>Tue, 16 Jun 2020 16:00:43 +0000</pubDate>
+            <category>Culture></category>
+            <category>AI></category>
+            <category>Electrical Engineering></category>
+            <category>Engineering Manager></category>
+            <category>Machine Learning></category>
+            <category>ML></category>
+            <category>Profiles in Coding></category>
+            <category>Sensors></category>
+            <category>Uber Advanced Technologies Group></category>
+            <category>Uber ATG></category>
+            <category>Uber Engineering></category>
+            <category>Women in Tech></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8027</guid>
+
+            <description>
+                <p>
+                    <span style="font-weight: 400;">Self-driving cars have long been considered the future of
+                        transportation, but they’re becoming more present everyday. Uber ATG (Advanced Technologies
+                        Group) is
+                    </span>
+                    <a href="https://www.uber.com/us/en/atg/technology/" target="_blank" rel="noopener noreferrer">
+                        <span style="font-weight: 400;">at the forefront of this technology, helping bring safe,
+                            reliable self-driving vehicles to the streets
+                        </span>
+                    </a>
+                    <span style="font-weight: 400;">. Of course,</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/profiles-in-coding-diana-yanakiev/">Profiles in
+                    Coding: Diana Yanakiev, Uber ATG, Pittsburgh
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Building a Large-scale Transactional Data Lake at Uber Using Apache Hudi</title>
+            <link>https://eng.uber.com/apache-hudi-graduation/</link>
+
+            <dc:creator>Nishith Agarwal></dc:creator>
+            <pubDate>Tue, 09 Jun 2020 16:00:51 +0000</pubDate>
+            <category>Announcement></category>
+            <category>Open Source></category>
+            <category>Apache Hudi></category>
+            <category>Big Data></category>
+            <category>Data Processing></category>
+            <category>HDFS></category>
+            <category>OSS></category>
+            <category>The Apache Software Foundation></category>
+            <category>Uber Open Source></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=8007</guid>
+
+            <description>
+                <p><span style="font-weight: 400;">From ensuring accurate ETAs to predicting optimal traffic routes,
+                    providing safe, seamless transportation and delivery experiences on the Uber platform requires
+                    reliable, performant large-scale data storage and analysis. In 2016, Uber developed Apache Hudi, an
+                    incremental processing framework, to power</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/apache-hudi-graduation/">Building a Large-scale
+                    Transactional Data Lake at Uber Using Apache Hudi
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Introducing Neuropod, Uber ATG’s Open Source Deep Learning Inference Engine</title>
+            <link>https://eng.uber.com/introducing-neuropod/</link>
+
+            <dc:creator>Vivek Panyam></dc:creator>
+            <pubDate>Mon, 08 Jun 2020 16:02:10 +0000</pubDate>
+            <category>AI></category>
+            <category>Announcement></category>
+            <category>Open Source></category>
+            <category>artificial intelligence></category>
+            <category>Deep Learning></category>
+            <category>Deep Learning Inference></category>
+            <category>Ludwig></category>
+            <category>Machine Learning></category>
+            <category>Neuropod></category>
+            <category>OSS></category>
+            <category>Uber Advanced Technologies Group></category>
+            <category>Uber ATG></category>
+            <category>Uber Engineering></category>
+            <category>Uber Open Source></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=7980</guid>
+
+            <description>
+                <p>
+                    <span style="font-weight: 400;">At</span>
+                    <a href="https://www.uber.com/us/en/atg/" target="_blank" rel="noopener noreferrer">
+                        <span style="font-weight: 400;">Uber Advanced Technologies Group (ATG)</span>
+                    </a>
+                    <span style="font-weight: 400;">, we leverage deep learning to provide safe and reliable
+                        self-driving technology. Using deep learning, we can build and train models to handle tasks such
+                        as processing sensor input, identifying objects, and predicting where</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/introducing-neuropod/">Introducing Neuropod,
+                    Uber ATG’s Open Source Deep Learning Inference Engine
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Inside Uber ATG’s Data Mining Operation: Identifying Real Road Scenarios at Scale for Machine
+                Learning
+            </title>
+            <link>https://eng.uber.com/uber-atg-data-mining/</link>
+
+            <dc:creator>Steffon Davis></dc:creator>
+            <pubDate>Tue, 02 Jun 2020 16:00:21 +0000</pubDate>
+            <category>AI></category>
+            <category>Uber Data></category>
+            <category>Data Mining></category>
+            <category>Labeling></category>
+            <category>Machine Learning></category>
+            <category>Motion Planning></category>
+            <category>Perception></category>
+            <category>Safety Engineering></category>
+            <category>SDV></category>
+            <category>Self-Driving Vehicles></category>
+            <category>Simulation></category>
+            <category>Uber Advanced Technologies Group></category>
+            <category>Uber ATG></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=7961</guid>
+
+            <description>
+                <p>
+                    <span style="font-weight: 400;">How did the pedestrian cross the road?</span>
+                </p>
+                <p>
+                    <span style="font-weight: 400;">Contrary to popular belief, sometimes the answer isn&#8217;t as
+                        simple as &#8220;to get to the other side.&#8221; To bring safe, reliable self-driving vehicles
+                        (SDVs) to the streets at
+                    </span>
+                    <a href="https://www.uber.com/us/en/atg/" target="_blank" rel="noopener noreferrer">
+                        <span style="font-weight: 400;">Uber Advanced Technologies Group (ATG)</span>
+                    </a>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/uber-atg-data-mining/">Inside Uber ATG’s Data
+                    Mining Operation: Identifying Real Road Scenarios at Scale for Machine Learning
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Meta-Graph: Few-Shot Link Prediction Using Meta-Learning</title>
+            <link>https://eng.uber.com/meta-graph/</link>
+
+            <dc:creator>Ankit Jain></dc:creator>
+            <pubDate>Fri, 29 May 2020 15:00:11 +0000</pubDate>
+            <category>AI></category>
+            <category>artificial intelligence></category>
+            <category>Graph Learning></category>
+            <category>Link Prediction></category>
+            <category>Machine Learning></category>
+            <category>Meta-Graph></category>
+            <category>ML></category>
+            <category>Uber AI></category>
+            <category>Uber AI Labs></category>
+            <category>Uber Engineering></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=7950</guid>
+
+            <description>
+                <p>
+                    <i>
+                        <span style="font-weight: 400;">This article is based on the paper “</span>
+                    </i>
+                    <a href="https://arxiv.org/abs/1912.09867" target="_blank" rel="noopener noreferrer">
+                        <i>
+                            <span style="font-weight: 400;">Meta-Graph: Few Shot Link Prediction via Meta Learning
+                            </span>
+                        </i>
+                    </a>
+                    <i>
+                        <span style="font-weight: 400;">” by Joey Bose, Ankit Jain, Piero Molino, and William L.
+                            Hamilton
+                        </span>
+                    </i>
+                </p>
+                <p><span style="font-weight: 400;">Many real-world data sets are structured as graphs, and as such,
+                    machine</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow" href="https://eng.uber.com/meta-graph/">Meta-Graph: Few-Shot Link
+                    Prediction Using Meta-Learning
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+        <item>
+            <title>Profiles in Coding: Christabelle Bosson, Uber Elevate, San Francisco</title>
+            <link>https://eng.uber.com/profiles-in-coding-christabelle-bosson-uber-elevate/</link>
+
+            <dc:creator>Bea Schuster></dc:creator>
+            <pubDate>Thu, 28 May 2020 16:00:32 +0000</pubDate>
+            <category>Culture></category>
+            <category>Aerial Ridesharing></category>
+            <category>Aerospace></category>
+            <category>Christabelle Bosson></category>
+            <category>NASA></category>
+            <category>Profiles in Coding></category>
+            <category>STEM></category>
+            <category>Uber Air></category>
+            <category>Uber Copter></category>
+            <category>Uber Elevate></category>
+            <category>WiT></category>
+            <category>Women in Tech></category>
+            <guid isPermaLink="false">https://eng.uber.com/?p=7941</guid>
+
+            <description>
+                <p>
+                    <a href="https://www.uber.com/us/en/elevate/" target="_blank" rel="noopener noreferrer">
+                        <span style="font-weight: 400;">Uber Elevate</span>
+                    </a>
+                    <span style="font-weight: 400;">takes Uber’s pioneering transportation technology to new heights
+                        with urban aerial ridesharing
+                    </span>
+                    <span style="font-weight: 400;">. In its mission to make aviation a part of everyday transportation,
+                        Uber Elevate is building an all-electric aerial mobility ecosystem that will bypass congestion
+                        on</span>&#8230;
+                </p>
+                <p>The post <a rel="nofollow"
+                               href="https://eng.uber.com/profiles-in-coding-christabelle-bosson-uber-elevate/">Profiles
+                    in Coding: Christabelle Bosson, Uber Elevate, San Francisco
+                </a> appeared first on <a rel="nofollow" href="https://eng.uber.com">Uber Engineering Blog</a>.
+                </p>
+                >
+            </description>
+
+
+        </item>
+    </channel>
+</rss>
