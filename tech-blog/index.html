@@ -43,7 +43,7 @@
     const DOMAIN = window.location.origin;
     const URI = "tech-blog/api";
 
-    const BUILT_URI = (DOMAIN.includes("localhost")) ? LOCAL + "/" + URI : "tech-blog";
+    const BUILT_URI = (DOMAIN.includes("localhost")) ? LOCAL + "/" + URI : URI;
 
     ($(document).ready(function () {
 
