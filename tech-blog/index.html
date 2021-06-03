@@ -59,7 +59,7 @@
         return res;
     }
 
-    ($(document).ready(function () {
+    $(document).ready(function () {
 
         $.ajax({
             url: DOMAIN + "/" + BUILT_URI + "/dates.json",
@@ -93,7 +93,7 @@
                             <a href="${dataResult[i].link}" target="_blank">
 
                                 <h2>${dataResult[i].title || ""}</h2>
-                              <small>${dataResult[i].owner || ""}</small>
+                              <small>${dataResult[i].link || ""}</small>
                             </a>
                         </div>
                          <br>
@@ -107,7 +107,7 @@
                 }
             });
         });
-    }))();
+    });
 </script>
 
 </body>
