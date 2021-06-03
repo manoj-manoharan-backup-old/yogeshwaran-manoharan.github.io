@@ -1,0 +1,1 @@
+[{"title":"Bash it! - Number of messages in Postfix queue","description":"Got bash? Here&rsquo;s a nice snippet that will return the number of messages currently in the postfix queue.\npostqueue -p | tail -n 1 | cut -d' ' -f5 Feel free to post any updates or improvements.","link":"https://www.devroom.io/2007/11/15/bash-it-number-of-messages-in-postfix-queue/","owner":"Antirez"}]
