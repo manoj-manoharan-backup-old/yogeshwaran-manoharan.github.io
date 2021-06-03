@@ -8,19 +8,20 @@ const Dom = require('xmldom').DOMParser;
 const axios = require('axios');
 const KnexDb = require('./db').knex;
 
-const BLOGS_FEED_XML_PATH = "./blog-url-source.xml";
+
+const BlogSourceJson = require('./blog-url-source.json');
+
+// const BLOGS_FEED_XML_PATH = "./blog-url-source.xml";
 const TECH_BLOG_TABLE = "tech_blog";
 
 class Aggregator {
 
-    _rssLinks = [];
+    _rssLinks = Array.isArray(BlogSourceJson) ? BlogSourceJson : [];
 
     /** */
     async runAggregation() {
 
-        await this.fetchAndSetRssLinks();
-
-        await this.fetchContentFromRSSFeedsAndSaveToDb();
+        // await this.fetchContentFromRSSFeedsAndSaveToDb();
 
         await this.fetchDatesFromDbAndWriteToJson();
 
@@ -29,35 +30,35 @@ class Aggregator {
         return true;
     }
 
-    /** Fetch Rss links from XML file and set on @param _rssLinks */
-    async fetchAndSetRssLinks() {
-
-        let err = "";
-
-        try {
-
-            const xmlFromFile = fileSystem.readFileSync(BLOGS_FEED_XML_PATH).toString();
-            const xmlDomDocument = new Dom().parseFromString(xmlFromFile);
-            const rssFeedUrls = xpath.select("//outline/@xmlUrl", xmlDomDocument);
-            const owners = xpath.select("//outline/@title", xmlDomDocument);
-
-            rssFeedUrls.forEach((rssNodes, index) => {
-                this._rssLinks.push({
-                    url: rssNodes.value,
-                    owner: owners[index].value
-                })
-            });
-
-        } catch (e) {
-            err = e.toString();
-        }
-
-        if (this._rssLinks.length > 0) {
-            return;
-        }
-
-        throw new Error("fetchAndSetRssLinks : RSS Feed link not set. " + err);
-    }
+    // /** Fetch Rss links from XML file and set on @param _rssLinks */
+    // async fetchAndSetRssLinks() {
+    //
+    //     let err = "";
+    //
+    //     try {
+    //
+    //         const xmlFromFile = fileSystem.readFileSync(BLOGS_FEED_XML_PATH).toString();
+    //         const xmlDomDocument = new Dom().parseFromString(xmlFromFile);
+    //         const rssFeedUrls = xpath.select("//outline/@xmlUrl", xmlDomDocument);
+    //         const owners = xpath.select("//outline/@title", xmlDomDocument);
+    //
+    //         rssFeedUrls.forEach((rssNodes, index) => {
+    //             this._rssLinks.push({
+    //                 url: rssNodes.value,
+    //                 owner: owners[index].value
+    //             })
+    //         });
+    //
+    //     } catch (e) {
+    //         err = e.toString();
+    //     }
+    //
+    //     if (this._rssLinks.length > 0) {
+    //         return;
+    //     }
+    //
+    //     throw new Error("fetchAndSetRssLinks : RSS Feed link not set. " + err);
+    // }
 
     /** */
     async fetchContentFromRSSFeedsAndSaveToDb() {
