@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tech_blog_migration_run": "knex migrate:latest --cwd='./tech-blog/app'",
+    "tech_blog_migration_rollback": "knex migrate:rollback --cwd='./tech-blog/app'"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,11 @@
   },
   "homepage": "https://github.com/yogeshwaran-manoharan/yogeshwaran-manoharan.github.io#readme",
   "dependencies": {
-    "xml-reader": "^2.4.3",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "knex": "^0.95.6",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
     "xmldom": "^0.6.0",
     "xpath": "0.0.32"
   }
