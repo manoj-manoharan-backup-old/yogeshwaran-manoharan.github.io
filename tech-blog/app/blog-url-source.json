@@ -1,0 +1,2526 @@
+[
+  {
+    "url": "https://developers.500px.com/feed",
+    "owner": "500px"
+  },
+  {
+    "url": "https://8thlight.com/blog/feed/atom.xml",
+    "owner": "8th Light"
+  },
+  {
+    "url": "https://99designs.com/tech-blog/feed.xml",
+    "owner": "99designs"
+  },
+  {
+    "url": "http://tech.adroll.com/feed.xml",
+    "owner": "AdRoll"
+  },
+  {
+    "url": "https://medium.com/feed/build-addepar",
+    "owner": "Addepar"
+  },
+  {
+    "url": "https://build.affinity.co/feed",
+    "owner": "Affinity"
+  },
+  {
+    "url": "https://airbrake.io/blog/feed",
+    "owner": "Airbrake"
+  },
+  {
+    "url": "https://www.airpair.com/rss",
+    "owner": "AirPair"
+  },
+  {
+    "url": "https://advancedweb.hu/atom.xml",
+    "owner": "Advanced Web Machinery"
+  },
+  {
+    "url": "https://medium.com/feed/airbnb-engineering",
+    "owner": "Airbnb"
+  },
+  {
+    "url": "https://airtame.engineering/feed",
+    "owner": "Airtame"
+  },
+  {
+    "url": "https://blog.algolia.com/feed/",
+    "owner": "Algolia"
+  },
+  {
+    "url": "https://allegro.tech/feed.xml",
+    "owner": "Allegro.tech"
+  },
+  {
+    "url": "https://techblog.appnexus.com/feed",
+    "owner": "Appnexus"
+  },
+  {
+    "url": "http://blog.arkency.com/atom.xml",
+    "owner": "Arkency"
+  },
+  {
+    "url": "http://artsy.github.io/feed",
+    "owner": "Artsy"
+  },
+  {
+    "url": "https://blog.asana.com/feed/",
+    "owner": "Asana"
+  },
+  {
+    "url": "https://developer.atlassian.com/blog/feed.xml",
+    "owner": "Atlassian"
+  },
+  {
+    "url": "https://spin.atomicobject.com/feed/",
+    "owner": "Atomic Object"
+  },
+  {
+    "url": "https://auth0.com/blog/rss.xml",
+    "owner": "Auth0"
+  },
+  {
+    "url": "http://blog.avenuecode.com/rss.xml",
+    "owner": "Avenue Code"
+  },
+  {
+    "url": "https://aws.amazon.com/blogs/aws/feed/",
+    "owner": "AWS"
+  },
+  {
+    "url": "https://www.azavea.com/blog/category/software-development/rss",
+    "owner": "Azavea"
+  },
+  {
+    "url": "https://blog.babbel.com/en/feed/",
+    "owner": "Babbel"
+  },
+  {
+    "url": "https://backtrace.io/feed/",
+    "owner": "Backtrace"
+  },
+  {
+    "url": "https://techblog.badoo.com/feed.xml",
+    "owner": "Badoo"
+  },
+  {
+    "url": "https://bandcamptech.wordpress.com/feed/",
+    "owner": "Bandcamp"
+  },
+  {
+    "url": "https://lab.getbase.com/feed/",
+    "owner": "Base Lab"
+  },
+  {
+    "url": "https://blog.developer.bazaarvoice.com/feed/",
+    "owner": "Bazaarvoice"
+  },
+  {
+    "url": "https://medium.com/feed/bbc-design-engineering",
+    "owner": "BBC"
+  },
+  {
+    "url": "https://benchling.engineering/feed",
+    "owner": "Benchling"
+  },
+  {
+    "url": "https://www.benefitfocus.com/rss.xml",
+    "owner": "BenefitFocus"
+  },
+  {
+    "url": "https://www.bigeng.io/rss/",
+    "owner": "Bigcommerce"
+  },
+  {
+    "url": "https://binary-studio.com/blog/rss",
+    "owner": "Binary Studio"
+  },
+  {
+    "url": "https://word.bitly.com/rss",
+    "owner": "Bitly"
+  },
+  {
+    "url": "https://engineering.bittorrent.com/feed/",
+    "owner": "BitTorrent"
+  },
+  {
+    "url": "https://medium.com/feed/blablacar-tech",
+    "owner": "BlaBlaCar"
+  },
+  {
+    "url": "http://rockthecode.io/feed/",
+    "owner": "BlackRock"
+  },
+  {
+    "url": "https://code.blender.org/rss",
+    "owner": "Blender"
+  },
+  {
+    "url": "http://engineering.blogfoster.com/rss/",
+    "owner": "Blogfoster"
+  },
+  {
+    "url": "https://www.boxever.com/feed/",
+    "owner": "Boxever"
+  },
+  {
+    "url": "https://engineering.brandwatch.com/rss/",
+    "owner": "Brandwatch"
+  },
+  {
+    "url": "https://tech.buzzfeed.com/feed",
+    "owner": "Buzzfeed"
+  },
+  {
+    "url": "https://product.canva.com/feed.xml",
+    "owner": "Canva"
+  },
+  {
+    "url": "https://capgemini.github.io/feed.xml",
+    "owner": "Capgemini"
+  },
+  {
+    "url": "https://www.ctl.io/developers/blog/rss",
+    "owner": "CenturyLink"
+  },
+  {
+    "url": "http://engineering.cerner.com/atom.xml",
+    "owner": "Cerner"
+  },
+  {
+    "url": "https://blog.chaps.io/feed.xml",
+    "owner": "Chaps"
+  },
+  {
+    "url": "http://engineering.chartbeat.com/feed/",
+    "owner": "Chartbeat"
+  },
+  {
+    "url": "https://blog.chef.io/rss",
+    "owner": "Chef"
+  },
+  {
+    "url": "https://engineering.clever.com/rss",
+    "owner": "Clever"
+  },
+  {
+    "url": "https://clevertap.com/blog/tag/engineering/feed/",
+    "owner": "CleverTap"
+  },
+  {
+    "url": "https://www.previous.cloudbees.com/blog.xml",
+    "owner": "CloudBees"
+  },
+  {
+    "url": "https://blog.cloudera.com/feed/",
+    "owner": "Cloudera"
+  },
+  {
+    "url": "https://blog.cloudflare.com/rss/",
+    "owner": "Cloudflare"
+  },
+  {
+    "url": "https://www.cockroachlabs.com/blog/index.xml",
+    "owner": "CockroachDB"
+  },
+  {
+    "url": "http://feeds.feedburner.com/CodeBetter",
+    "owner": "Code Better"
+  },
+  {
+    "url": "https://www.codelitt.com/blog/rss",
+    "owner": "Codelitt"
+  },
+  {
+    "url": "https://crypt.codemancers.com/index.xml",
+    "owner": "Codemancers"
+  },
+  {
+    "url": "https://www.codementor.io/tutorial/feed",
+    "owner": "Codementor"
+  },
+  {
+    "url": "http://www.codenameone.com/feed.xml",
+    "owner": "CodeName One"
+  },
+  {
+    "url": "http://blog.codeship.com/feed/",
+    "owner": "Codeship"
+  },
+  {
+    "url": "https://engineering.coinbase.com/feed",
+    "owner": "Coinbase"
+  },
+  {
+    "url": "https://collectiveidea.com/blog/feed/",
+    "owner": "Collective Idea"
+  },
+  {
+    "url": "https://techblog.commercetools.com/feed",
+    "owner": "Commercetools"
+  },
+  {
+    "url": "https://technology.condenast.com/feed/rss",
+    "owner": "Condé Nast"
+  },
+  {
+    "url": "https://www.confluent.io/feed/",
+    "owner": "Confluent"
+  },
+  {
+    "url": "https://convox.com/blog/rss.xml",
+    "owner": "Convox"
+  },
+  {
+    "url": "https://devblog.coolblue.nl/feed/",
+    "owner": "Coolblue"
+  },
+  {
+    "url": "https://medium.com/feed/criteo-labs",
+    "owner": "Criteo"
+  },
+  {
+    "url": "https://crowdfire.engineering/feed",
+    "owner": "Crowdfire"
+  },
+  {
+    "url": "https://cloud.blog.csc.fi/feeds/posts/default",
+    "owner": "CSC - IT Center For Science - Cloud Team"
+  },
+  {
+    "url": "http://engineering.curalate.com/feed.xml",
+    "owner": "Curalate"
+  },
+  {
+    "url": "https://data-artisans.com/feed",
+    "owner": "Data Artisans"
+  },
+  {
+    "url": "https://databricks.com/feed",
+    "owner": "Databricks"
+  },
+  {
+    "url": "https://eng.datafox.com/feed.xml",
+    "owner": "DataFox"
+  },
+  {
+    "url": "https://deezer.io/feed",
+    "owner": "Deezer"
+  },
+  {
+    "url": "https://deferpanic.com/blog/index.xml/",
+    "owner": "DeferPanic"
+  },
+  {
+    "url": "http://deliveroo.engineering/feed.xml",
+    "owner": "Deliveroo"
+  },
+  {
+    "url": "https://blog.digitalocean.com/rss/",
+    "owner": "DigitalOcean"
+  },
+  {
+    "url": "https://blog.discordapp.com/feed",
+    "owner": "Discord"
+  },
+  {
+    "url": "https://blog.docker.com/feed/",
+    "owner": "Docker"
+  },
+  {
+    "url": "https://medium.com/feed/doordash-blog/tagged/engineering",
+    "owner": "DoorDash"
+  },
+  {
+    "url": "https://engineering.doximity.com/feed",
+    "owner": "Doximity"
+  },
+  {
+    "url": "https://drivy.engineering/feed.xml",
+    "owner": "Drivy"
+  },
+  {
+    "url": "https://blogs.dropbox.com/tech/feed/",
+    "owner": "Dropbox"
+  },
+  {
+    "url": "https://www.ebayinc.com/stories/blogs/tech/rss/ ",
+    "owner": "Ebay"
+  },
+  {
+    "url": "https://medium.com/feed/unexpected-token",
+    "owner": "eFounders"
+  },
+  {
+    "url": "https://www.eharmony.com/engineering/feed/",
+    "owner": "Eharmony"
+  },
+  {
+    "url": "https://www.elastic.co/blog/feed",
+    "owner": "Elastic"
+  },
+  {
+    "url": "https://blog.engineyard.com/feed.xml",
+    "owner": "Engine Yard"
+  },
+  {
+    "url": "https://sourcecode.entelo.com/feed.xml",
+    "owner": "Entelo"
+  },
+  {
+    "url": "https://webuild.envato.com/atom.xml",
+    "owner": "Envato"
+  },
+  {
+    "url": "https://envoy.engineering/feed",
+    "owner": "Envoy"
+  },
+  {
+    "url": "https://www.erlang-solutions.com/news.rss",
+    "owner": "Erlang Solutions"
+  },
+  {
+    "url": "https://codeascraft.com/feed/",
+    "owner": "Etsy"
+  },
+  {
+    "url": "https://www.eventbrite.com/engineering/feed/",
+    "owner": "Eventbrite"
+  },
+  {
+    "url": "https://evernote.com/blog/feed/",
+    "owner": "Evernote"
+  },
+  {
+    "url": "https://evilmartians.com/chronicles.atom",
+    "owner": "Evil Martians"
+  },
+  {
+    "url": "https://medium.com/feed/expedia-group-tech",
+    "owner": "Expedia"
+  },
+  {
+    "url": "https://code.fb.com/feed/",
+    "owner": "Facebook"
+  },
+  {
+    "url": "https://engineering.fb.com/feed/",
+    "owner": "Facebook AI Research"
+  },
+  {
+    "url": "https://blog.faraday.io/rss/",
+    "owner": "Faraday"
+  },
+  {
+    "url": "https://medium.com/feed/feedzaitech",
+    "owner": "Feedzai"
+  },
+  {
+    "url": "http://making.fiftythree.com/feed.xml",
+    "owner": "Fiftythree"
+  },
+  {
+    "url": "https://tech.findmypast.com/feed.xml",
+    "owner": "Findmypast"
+  },
+  {
+    "url": "http://tech.finn.no/atom.xml",
+    "owner": "Finn.no"
+  },
+  {
+    "url": "https://dev.firmafon.dk/blog/feed.xml",
+    "owner": "Firmafon"
+  },
+  {
+    "url": "http://code.flickr.net/feed/",
+    "owner": "Flickr"
+  },
+  {
+    "url": "http://engineering.flipboard.com/feed.xml",
+    "owner": "Flipboard"
+  },
+  {
+    "url": "https://engineering.foursquare.com/feed",
+    "owner": "Foursquare"
+  },
+  {
+    "url": "https://freeletics.engineering/feed.xml",
+    "owner": "Freeletics"
+  },
+  {
+    "url": "https://engineering.fundingcircle.com/blog/feed.xml",
+    "owner": "Funding Circle"
+  },
+  {
+    "url": "https://www.future-processing.pl/technical-blog/rss",
+    "owner": "Future Processing"
+  },
+  {
+    "url": "https://galois.com/feed/",
+    "owner": "Galois"
+  },
+  {
+    "url": "http://tech.gc.com/atom.xml",
+    "owner": "GameChanger"
+  },
+  {
+    "url": "https://tech.geoblink.com/feed/",
+    "owner": "Geoblink"
+  },
+  {
+    "url": "http://tech.gilt.com/rss",
+    "owner": "Gilt"
+  },
+  {
+    "url": "https://engineering.giphy.com/rss",
+    "owner": "GIPHY"
+  },
+  {
+    "url": "https://githubengineering.com/atom.xml",
+    "owner": "GitHub"
+  },
+  {
+    "url": "https://blog.github.com/feed.xml",
+    "owner": "GitHub Old"
+  },
+  {
+    "url": "https://gocardless.com/blog/atom.xml",
+    "owner": "GoCardless"
+  },
+  {
+    "url": "https://team.goodeggs.com/feed",
+    "owner": "Good Eggs"
+  },
+  {
+    "url": "https://security.googleblog.com/feeds/posts/default",
+    "owner": "Google Online Security"
+  },
+  {
+    "url": "http://ai.googleblog.com/feeds/posts/default",
+    "owner": "Google Research"
+  },
+  {
+    "url": "https://engineering.gosquared.com/feed",
+    "owner": "GoSquared"
+  },
+  {
+    "url": "https://blog.gojekengineering.com/feed",
+    "owner": "GO-JEK"
+  },
+  {
+    "url": "http://engineering.grab.com/feed.xml",
+    "owner": "Grab"
+  },
+  {
+    "url": "https://grafana.com/blog/blog/index.xml",
+    "owner": "Grafana"
+  },
+  {
+    "url": "https://tech.grammarly.com/feed.xml",
+    "owner": "Grammarly"
+  },
+  {
+    "url": "https://lambda.grofers.com/feed",
+    "owner": "Grofers"
+  },
+  {
+    "url": "http://blog.joingrouper.com/rss",
+    "owner": "Grouper"
+  },
+  {
+    "url": "https://engineering.groupon.com/feed/",
+    "owner": "Groupon"
+  },
+  {
+    "url": "https://www.theguardian.com/info/series/digital-blog/rss",
+    "owner": "Guardian"
+  },
+  {
+    "url": "https://engineering.gusto.com/rss/",
+    "owner": "Gusto"
+  },
+  {
+    "url": "http://engineering.hackerearth.com/rss",
+    "owner": "HackerEarth"
+  },
+  {
+    "url": "https://haptik.ai/tech/feed/",
+    "owner": "Haptik"
+  },
+  {
+    "url": "http://engineering.harrys.com/feed.xml",
+    "owner": "Harry's"
+  },
+  {
+    "url": "https://www.hashicorp.com/blog/feed.xml",
+    "owner": "HashiCorp"
+  },
+  {
+    "url": "https://engineering.hashnode.com/rss.xml",
+    "owner": "Hashnode"
+  },
+  {
+    "url": "https://hashrocket.com/blog.rss",
+    "owner": "Hashrocket"
+  },
+  {
+    "url": "https://blog.hasura.io/feed",
+    "owner": "Hasura"
+  },
+  {
+    "url": "https://engineering.haus.com/feed",
+    "owner": "Haus"
+  },
+  {
+    "url": "https://heapanalytics.com/blog/category/engineering/feed",
+    "owner": "Heap"
+  },
+  {
+    "url": "https://medium.com/feed/helpshift-engineering",
+    "owner": "Helpshift"
+  },
+  {
+    "url": "https://developer.here.com/blog/feed",
+    "owner": "HERE"
+  },
+  {
+    "url": "https://blog.heroku.com/engineering/feed",
+    "owner": "Heroku"
+  },
+  {
+    "url": "http://code.hireart.com/feed.xml",
+    "owner": "HireArt"
+  },
+  {
+    "url": "https://medium.com/feed/homeaway-tech-blog",
+    "owner": "HomeAway"
+  },
+  {
+    "url": "http://blog.honeybadger.io/feed.xml",
+    "owner": "Honeybadger"
+  },
+  {
+    "url": "http://code.hootsuite.com/rss",
+    "owner": "Hootsuite"
+  },
+  {
+    "url": "https://www.hostinger.com/blog/feed/",
+    "owner": "Hostinger"
+  },
+  {
+    "url": "https://medium.com/feed/engineering-housing",
+    "owner": "Housing.com"
+  },
+  {
+    "url": "https://product.hubspot.com/blog/rss.xml",
+    "owner": "HubSpot"
+  },
+  {
+    "url": "https://developer.ibm.com/dwblog/feed/",
+    "owner": "IBM developerWorks"
+  },
+  {
+    "url": "http://engineering.ifttt.com/feed.xml",
+    "owner": "IFTTT"
+  },
+  {
+    "url": "https://engineering.imvu.com/feed/",
+    "owner": "IMVU"
+  },
+  {
+    "url": "https://blog.imaginea.com/feed/",
+    "owner": "Imaginea"
+  },
+  {
+    "url": "https://blog.imgur.com/feed/",
+    "owner": "Imgur"
+  },
+  {
+    "url": "http://engineering.indeedblog.com/feed/",
+    "owner": "Indeed"
+  },
+  {
+    "url": "https://tech.instacart.com/feed",
+    "owner": "Instacart"
+  },
+  {
+    "url": "https://instagram-engineering.com/feed",
+    "owner": "Instagram"
+  },
+  {
+    "url": "https://software.intel.com/en-us/blogs/feed",
+    "owner": "Intel"
+  },
+  {
+    "url": "http://engineering.intenthq.com/feed.xml",
+    "owner": "Intent HQ"
+  },
+  {
+    "url": "http://intentmedia.com/feed/",
+    "owner": "Intent Media"
+  },
+  {
+    "url": "https://engineering.intercom.io/feed.xml",
+    "owner": "Intercom"
+  },
+  {
+    "url": "https://quickbooks-engineering.intuit.com/feed",
+    "owner": "Intuit"
+  },
+  {
+    "url": "http://engineering.invisionapp.com/index.xml",
+    "owner": "InVision"
+  },
+  {
+    "url": "https://blogs.janestreet.com/feed.xml",
+    "owner": "Jane Street"
+  },
+  {
+    "url": "https://medium.com/feed/jettech",
+    "owner": "Jet Technology"
+  },
+  {
+    "url": "https://jobandtalent.engineering/feed",
+    "owner": "Jobandtalent"
+  },
+  {
+    "url": "https://medium.com/feed/jobteaser-dev-team",
+    "owner": "JobTeaser"
+  },
+  {
+    "url": "https://jollygoodcode.github.io/atom.xml",
+    "owner": "Jolly Good Code"
+  },
+  {
+    "url": "https://tech.just-eat.com/feed/",
+    "owner": "Just Eat"
+  },
+  {
+    "url": "http://engineering.khanacademy.org/rss.xml",
+    "owner": "Khan Academy"
+  },
+  {
+    "url": "https://kickstarter.engineering/feed",
+    "owner": "Kickstarter"
+  },
+  {
+    "url": "https://techblog.king.com/feed/",
+    "owner": "King"
+  },
+  {
+    "url": "https://kinvolk.io/blog/index.xml",
+    "owner": "Kinvolk"
+  },
+  {
+    "url": "https://devblog.kogan.com/blog?format=RSS",
+    "owner": "Kogan.com"
+  },
+  {
+    "url": "https://kolosek.com/rss/",
+    "owner": "Kolosek"
+  },
+  {
+    "url": "https://latacora.micro.blog/feed.xml",
+    "owner": "Latacora"
+  },
+  {
+    "url": "http://engineering.laterooms.com/rss/",
+    "owner": "Laterooms"
+  },
+  {
+    "url": "https://tech.lendinghome.com/feed",
+    "owner": "LendingHome"
+  },
+  {
+    "url": "https://engineering.linecorp.com/en/blog/rss2",
+    "owner": "LINE"
+  },
+  {
+    "url": "https://developers.livechatinc.com/blog/rss",
+    "owner": "LiveChat"
+  },
+  {
+    "url": "https://liveramp.com/engineering/feed/",
+    "owner": "LiveRamp"
+  },
+  {
+    "url": "https://eng.localytics.com/rss/",
+    "owner": "Localytics"
+  },
+  {
+    "url": "https://eng.lyft.com/feed",
+    "owner": "Lyft"
+  },
+  {
+    "url": "http://www.madetech.com/feed",
+    "owner": "Made Tech"
+  },
+  {
+    "url": "http://blog.mallow-tech.com/feed/",
+    "owner": "Mallow Tech"
+  },
+  {
+    "url": "http://blog.mandrill.com/feeds/all.atom.xml",
+    "owner": "Mandrill"
+  },
+  {
+    "url": "https://www.maptiler.com/blog/feed/posts.xml",
+    "owner": "MapTiler"
+  },
+  {
+    "url": "https://medium.engineering/feed",
+    "owner": "Medium"
+  },
+  {
+    "url": "http://blog.memsql.com/feed/",
+    "owner": "MemSQL"
+  },
+  {
+    "url": "https://mesosphere.com/feed/",
+    "owner": "Mesosphere"
+  },
+  {
+    "url": "http://blogs.msdn.microsoft.com/pythonengineering/feed/",
+    "owner": "Microsoft Python Engineering"
+  },
+  {
+    "url": "https://engineering.mixmax.com/rss/",
+    "owner": "Mixmax"
+  },
+  {
+    "url": "https://engineering.mixpanel.com/feed/",
+    "owner": "Mixpanel"
+  },
+  {
+    "url": "https://engineering.mongodb.com/post?format=RSS",
+    "owner": "MongoDB"
+  },
+  {
+    "url": "http://engineering.monsanto.com/feed.xml",
+    "owner": "Monsanto"
+  },
+  {
+    "url": "https://blog.moove-it.com/rss",
+    "owner": "Moove-it"
+  },
+  {
+    "url": "http://planet.mozilla.org/ateam/atom.xml",
+    "owner": "Mozilla Automation Team"
+  },
+  {
+    "url": "https://hacks.mozilla.org/feed/",
+    "owner": "Mozilla Hacks"
+  },
+  {
+    "url": "http://planet.mozilla.org/releng/atom.xml",
+    "owner": "Mozilla Release Engineering"
+  },
+  {
+    "url": "https://medium.com/feed/myntra-engineering",
+    "owner": "Myntra"
+  },
+  {
+    "url": "https://medium.com/feed/myntra-engineering/tagged/data-science",
+    "owner": "Myntra Data Science"
+  },
+  {
+    "url": "https://medium.com/feed/netflix-techblog",
+    "owner": "Netflix"
+  },
+  {
+    "url": "https://open.nytimes.com/feed",
+    "owner": "New York Times"
+  },
+  {
+    "url": "https://engblog.nextdoor.com/feed",
+    "owner": "Nextdoor"
+  },
+  {
+    "url": "https://nordicapis.com/feed/",
+    "owner": "Nordic APIs"
+  },
+  {
+    "url": "https://blog.novoda.com/rss/",
+    "owner": "Novoda"
+  },
+  {
+    "url": "http://blog.apps.npr.org/atom.xml",
+    "owner": "NPR Apps"
+  },
+  {
+    "url": "https://blogs.nvidia.com/feed/",
+    "owner": "Nvidia"
+  },
+  {
+    "url": "https://blog.octo.com/en/feed/",
+    "owner": "OCTO Technology"
+  },
+  {
+    "url": "https://developer.okta.com/feed.xml",
+    "owner": "Okta"
+  },
+  {
+    "url": "https://tech.olx.com/feed",
+    "owner": "OLX"
+  },
+  {
+    "url": "https://umbrella.cisco.com/blog/feed/",
+    "owner": "OpenDNS"
+  },
+  {
+    "url": "http://tech.opentable.com/feed/",
+    "owner": "OpenTable"
+  },
+  {
+    "url": "http://tech.opentable.co.uk/atom.xml",
+    "owner": "OpenTable UK"
+  },
+  {
+    "url": "https://code.oursky.com/feed/",
+    "owner": "Oursky"
+  },
+  {
+    "url": "http://tech.oyster.com/atom.xml",
+    "owner": "Oyster"
+  },
+  {
+    "url": "http://engineering.opensooq.com/feed/",
+    "owner": "Opensooq"
+  },
+  {
+    "url": "https://engineering.panoramaed.com/feed/",
+    "owner": "Panorama Education"
+  },
+  {
+    "url": "https://www.paypal-engineering.com/feed/",
+    "owner": "Paypal"
+  },
+  {
+    "url": "https://s3-us-west-1.amazonaws.com/periscope-rss/rss.xml",
+    "owner": "Periscope Data"
+  },
+  {
+    "url": "https://tech.pic-collage.com/feed",
+    "owner": "PicCollage"
+  },
+  {
+    "url": "https://medium.com/feed/@Pinterest_Engineering",
+    "owner": "Pinterest"
+  },
+  {
+    "url": "http://feeds.feedburner.com/PivotalEngineeringJournal",
+    "owner": "Pivotal"
+  },
+  {
+    "url": "https://medium.com/feed/better-practices",
+    "owner": "Postman"
+  },
+  {
+    "url": "https://postmarkapp.com/blog/feed.atom",
+    "owner": "Postmark"
+  },
+  {
+    "url": "https://medium.com/feed/postmates-blog/tagged/engineering",
+    "owner": "Postmates"
+  },
+  {
+    "url": "https://engineering.prezi.com/feed",
+    "owner": "Prezi"
+  },
+  {
+    "url": "https://www.pubnub.com/blog/feed/",
+    "owner": "PubNub:"
+  },
+  {
+    "url": "http://blog.8thcolor.com/feed.xml",
+    "owner": "PullReview"
+  },
+  {
+    "url": "https://making.pusher.com/feed.xml",
+    "owner": "Pusher"
+  },
+  {
+    "url": "https://www.raizlabs.com/dev/feed/",
+    "owner": "Raizlabs"
+  },
+  {
+    "url": "https://blog.rapidapi.com/feed/",
+    "owner": "RapidAPI"
+  },
+  {
+    "url": "https://www.rea-group.com/category/tech/feed/",
+    "owner": "REA Group"
+  },
+  {
+    "url": "https://realm.io/feed.xml",
+    "owner": "Realm.io"
+  },
+  {
+    "url": "http://artplustech.com/feed/",
+    "owner": "Redbubble"
+  },
+  {
+    "url": "http://redino.net/blog/feed/",
+    "owner": "Redino"
+  },
+  {
+    "url": "https://developers.redhat.com/blog/feed/atom/",
+    "owner": "Red Hat"
+  },
+  {
+    "url": "http://engineering.remind.com/feed.xml",
+    "owner": "Remind"
+  },
+  {
+    "url": "https://medium.com/feed/retailmenot-engineering",
+    "owner": "RetailMeNot"
+  },
+  {
+    "url": "http://eng.rightscale.com/feed.xml",
+    "owner": "Rightscale"
+  },
+  {
+    "url": "https://engineering.riotgames.com/rss.xml",
+    "owner": "Riot Games"
+  },
+  {
+    "url": "https://blog.risingstack.com/rss/",
+    "owner": "RisingStack"
+  },
+  {
+    "url": "https://www.rosehosting.com/blog/feed/",
+    "owner": "RoseHosting"
+  },
+  {
+    "url": "https://www.runtastic.com/blog/en/feed/",
+    "owner": "Runtastic"
+  },
+  {
+    "url": "https://developer.salesforce.com/blogs/feed",
+    "owner": "Salesforce"
+  },
+  {
+    "url": "http://www.schibsted.pl/blog/feed/",
+    "owner": "Schibsted Tech Polska"
+  },
+  {
+    "url": "https://blog.scrapinghub.com/rss.xml",
+    "owner": "Scrapinghub"
+  },
+  {
+    "url": "https://tech.scrunch.com/blog/feeds/rss/",
+    "owner": "Scrunch"
+  },
+  {
+    "url": "http://tech.secretescapes.com/feed/",
+    "owner": "Secret Escapes"
+  },
+  {
+    "url": "https://segment.com/blog/atom.xml",
+    "owner": "Segment"
+  },
+  {
+    "url": "https://engineering.semantics3.com/feed",
+    "owner": "Semantics3"
+  },
+  {
+    "url": "https://semaphoreci.com/community/tutorials.atom",
+    "owner": "Semaphore CI Community"
+  },
+  {
+    "url": "http://semaphoreci.com/blog/engineering.xml",
+    "owner": "Semaphore CI Engineering"
+  },
+  {
+    "url": "http://blog.sensible.io/rss",
+    "owner": "Sensible"
+  },
+  {
+    "url": "https://serverless.com/blog/feed.xml",
+    "owner": "Serverless"
+  },
+  {
+    "url": "https://engineroom.settled.co.uk/feed",
+    "owner": "Settled"
+  },
+  {
+    "url": "http://engineering.shapesecurity.com/rss",
+    "owner": "Shape Security"
+  },
+  {
+    "url": "https://www.sharethis.com/feed/",
+    "owner": "Sharethis"
+  },
+  {
+    "url": "https://blog.shazam.com/feed",
+    "owner": "Shazam"
+  },
+  {
+    "url": "http://engineering.shopify.com/blogs/engineering.atom",
+    "owner": "Shopify"
+  },
+  {
+    "url": "https://tech.showmax.com/feed.xml",
+    "owner": "ShowMax"
+  },
+  {
+    "url": "https://medium.com/feed/shyp-engineering",
+    "owner": "Shyp"
+  },
+  {
+    "url": "https://blog.siftscience.com/feed/",
+    "owner": "Sift Science"
+  },
+  {
+    "url": "https://www.sitepoint.com/feed/",
+    "owner": "SitePoint"
+  },
+  {
+    "url": "https://technology.skybettingandgaming.com/feed.xml",
+    "owner": "Sky Betting & Gaming"
+  },
+  {
+    "url": "https://medium.com/feed/@SkyscannerEng",
+    "owner": "Skyscanner"
+  },
+  {
+    "url": "https://slack.engineering/feed",
+    "owner": "Slack"
+  },
+  {
+    "url": "https://tech.small-improvements.com/rss",
+    "owner": "Small Improvements"
+  },
+  {
+    "url": "https://up.smartrecruiters.com/feed",
+    "owner": "SmartRecruiters"
+  },
+  {
+    "url": "https://snyk.io/blog/feed.xml",
+    "owner": "Snyk"
+  },
+  {
+    "url": "https://devblog.songkick.com/feed",
+    "owner": "Songkick"
+  },
+  {
+    "url": "https://blog.soshace.com/en/feed/",
+    "owner": "Soshace"
+  },
+  {
+    "url": "https://developers.soundcloud.com/blog.rss",
+    "owner": "Soundcloud"
+  },
+  {
+    "url": "http://engineering.speedledger.com/feed/",
+    "owner": "Speedledger"
+  },
+  {
+    "url": "https://labs.spotify.com/feed/",
+    "owner": "Spotify"
+  },
+  {
+    "url": "https://blog.sqreen.io/feed/",
+    "owner": "Sqreen"
+  },
+  {
+    "url": "https://medium.com/feed/square-corner-blog",
+    "owner": "Square"
+  },
+  {
+    "url": "https://engineering.squarespace.com/blog?format=RSS",
+    "owner": "Squarespace"
+  },
+  {
+    "url": "https://stackoverflow.blog/engineering/feed/",
+    "owner": "Stack Overflow"
+  },
+  {
+    "url": "https://stackshare.io/featured-posts.atom",
+    "owner": "Stackshare"
+  },
+  {
+    "url": "https://multithreaded.stitchfix.com/feed.xml",
+    "owner": "Stitch Fix"
+  },
+  {
+    "url": "https://stormpath.com/feed",
+    "owner": "Stormpath"
+  },
+  {
+    "url": "https://medium.com/feed/strava-engineering",
+    "owner": "Strava"
+  },
+  {
+    "url": "https://www.stridenyc.com/blog/rss.xml",
+    "owner": "Stride"
+  },
+  {
+    "url": "https://stripe.com/blog/feed.rss",
+    "owner": "Stripe"
+  },
+  {
+    "url": "https://www.surveymonkey.com/feed/",
+    "owner": "SurveyMonkey"
+  },
+  {
+    "url": "https://bytes.swiggy.com/feed",
+    "owner": "Swiggy"
+  },
+  {
+    "url": "https://blog.takipi.com/feed/",
+    "owner": "Takipi"
+  },
+  {
+    "url": "https://target.github.io/feed.xml",
+    "owner": "Target"
+  },
+  {
+    "url": "http://tech.taskrabbit.com/feed.xml",
+    "owner": "TaskRabbit"
+  },
+  {
+    "url": "https://engineroom.teamwork.com/feed",
+    "owner": "Teamwork"
+  },
+  {
+    "url": "http://teespring.engineering/index.xml",
+    "owner": "Teespring"
+  },
+  {
+    "url": "http://techblog.thescore.com/feed.xml",
+    "owner": "theScore"
+  },
+  {
+    "url": "https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots",
+    "owner": "Thoughtbot"
+  },
+  {
+    "url": "https://www.thoughtworks.com/rss/insights.xml",
+    "owner": "ThoughtWorks"
+  },
+  {
+    "url": "https://www.thumbtack.com/engineering/feed/",
+    "owner": "Thumbtack"
+  },
+  {
+    "url": "https://tech.ticketmaster.com/feed/",
+    "owner": "Ticketmaster"
+  },
+  {
+    "url": "https://blog.timescale.com/feed",
+    "owner": "Timescale"
+  },
+  {
+    "url": "https://tech.gotinder.com/rss/",
+    "owner": "Tinder"
+  },
+  {
+    "url": "https://www.toptal.com/blog.rss",
+    "owner": "Toptal"
+  },
+  {
+    "url": "http://engineroom.trackmaven.com/feeds/rss.xml",
+    "owner": "TrackMaven"
+  },
+  {
+    "url": "https://tech.transferwise.com/rss/",
+    "owner": "Transferwise"
+  },
+  {
+    "url": "https://tech.trello.com/feed.xml",
+    "owner": "Trello"
+  },
+  {
+    "url": "http://engineering.tripadvisor.com/rss",
+    "owner": "TripAdvisor"
+  },
+  {
+    "url": "https://tech.trivago.com/index.xml",
+    "owner": "Trivago"
+  },
+  {
+    "url": "https://www.drivenbycode.com/feed/",
+    "owner": "TrueCar"
+  },
+  {
+    "url": "https://engineering.tumblr.com/rss",
+    "owner": "Tumblr"
+  },
+  {
+    "url": "https://www.twilio.com/blog/feed",
+    "owner": "Twilio"
+  },
+  {
+    "url": "https://blog.twitter.com/engineering/feed",
+    "owner": "Twitter"
+  },
+  {
+    "url": "https://medium.com/feed/twitch-news/tagged/engineering",
+    "owner": "Twitch"
+  },
+  {
+    "url": "https://eng.uber.com/feed/",
+    "owner": "Uber"
+  },
+  {
+    "url": "https://engineering.universe.com/feed",
+    "owner": "Universe"
+  },
+  {
+    "url": "https://upday.github.io/feed.xml",
+    "owner": "Upday"
+  },
+  {
+    "url": "https://engineering.upgrad.com/feed",
+    "owner": "UpGrad"
+  },
+  {
+    "url": "https://engineering.vena.io/rss/",
+    "owner": "Vena Solutions"
+  },
+  {
+    "url": "http://blog.venmo.com/hf2t3h4x98p5e13z82pl8j66ngcmry?format=RSS",
+    "owner": "Venmo"
+  },
+  {
+    "url": "https://blog.versioneye.com/feed/",
+    "owner": "VersionEye"
+  },
+  {
+    "url": "https://medium.com/feed/vevo-engineering",
+    "owner": "Vevo"
+  },
+  {
+    "url": "http://engineering.vine.co/rss",
+    "owner": "Vine"
+  },
+  {
+    "url": "http://engineering.vinted.com//atom.xml",
+    "owner": "Vinted"
+  },
+  {
+    "url": "http://blog.vngrs.com/rss.xml",
+    "owner": "VNGRS"
+  },
+  {
+    "url": "https://buildingvts.com/feed",
+    "owner": "VTS"
+  },
+  {
+    "url": "https://medium.com/feed/walmartlabs",
+    "owner": "WalmartLabs"
+  },
+  {
+    "url": "http://engineering.wattpad.com/rss",
+    "owner": "Wattpad"
+  },
+  {
+    "url": "https://tech.wayfair.com/feed/",
+    "owner": "Wayfair"
+  },
+  {
+    "url": "http://eng.wealthfront.com/feed/",
+    "owner": "Wealthfront"
+  },
+  {
+    "url": "https://blog.wearewizards.io/all.atom.xml",
+    "owner": "We Are Wizards"
+  },
+  {
+    "url": "https://engineering.webengage.com/feed/",
+    "owner": "WebEngage"
+  },
+  {
+    "url": "https://medium.com/feed/wemake-services",
+    "owner": "Wemake.services"
+  },
+  {
+    "url": "https://wecode.wepay.com/feed.xml",
+    "owner": "WePay"
+  },
+  {
+    "url": "http://tech.wimdu.com/rss",
+    "owner": "Wimdu"
+  },
+  {
+    "url": "http://engineering.wingify.com/atom.xml",
+    "owner": "Wingify"
+  },
+  {
+    "url": "https://medium.com/feed/@WoloxEngineering",
+    "owner": "Wolox"
+  },
+  {
+    "url": "http://development.wombatsecurity.com/feed.xml",
+    "owner": "Wombat Security Technologies"
+  },
+  {
+    "url": "http://wongatech.github.io/feed.xml",
+    "owner": "Wonga Technology"
+  },
+  {
+    "url": "https://wyeworks.com/blog/atom.xml",
+    "owner": "WyeWorks"
+  },
+  {
+    "url": "https://tech.xing.com/feed",
+    "owner": "XING"
+  },
+  {
+    "url": "https://xmartlabs.com/feed.xml",
+    "owner": "Xmartlabs"
+  },
+  {
+    "url": "https://yahooeng.tumblr.com/rss",
+    "owner": "Yahoo"
+  },
+  {
+    "url": "https://medium.com/feed/yammer-engineering",
+    "owner": "Yammer"
+  },
+  {
+    "url": "https://engineeringblog.yelp.com/feed.xml",
+    "owner": "Yelp"
+  },
+  {
+    "url": "https://medium.com/feed/yld-engineering-blog",
+    "owner": "YLD!"
+  },
+  {
+    "url": "https://zeemee.engineering/feed",
+    "owner": "ZeeMee"
+  },
+  {
+    "url": "https://medium.com/feed/zendesk-engineering",
+    "owner": "Zendesk"
+  },
+  {
+    "url": "https://developerblog.zendesk.com/feed",
+    "owner": "Zendesk(old)"
+  },
+  {
+    "url": "https://engineering.zenefits.com/feed/",
+    "owner": "Zenefits"
+  },
+  {
+    "url": "https://www.zillow.com/engineering/rss",
+    "owner": "Zillow"
+  },
+  {
+    "url": "https://engineering.zomato.com/rss",
+    "owner": "Zomato"
+  },
+  {
+    "url": "https://medium.com/feed/zoosk-engineering",
+    "owner": "Zoosk"
+  },
+  {
+    "url": "https://zulily-tech.com/feed/",
+    "owner": "Zulily"
+  },
+  {
+    "url": "http://feeds.feedburner.com/zumba_engineering",
+    "owner": "Zumba"
+  },
+  {
+    "url": "https://0xadada.pub/feed.xml",
+    "owner": "0xADADA"
+  },
+  {
+    "url": "http://tenderlovemaking.com/atom.xml",
+    "owner": "Aaron Patterson"
+  },
+  {
+    "url": "https://blogs.msdn.microsoft.com/abhinaba/feed/",
+    "owner": "Abhinaba Basu"
+  },
+  {
+    "url": "http://masnun.com/feed",
+    "owner": "Abu Ashraf Masnun"
+  },
+  {
+    "url": "https://adambard.com/blog/feed.xml",
+    "owner": "Adam Bard"
+  },
+  {
+    "url": "http://dtrace.org/blogs/ahl/feed/",
+    "owner": "Adam Leventhal"
+  },
+  {
+    "url": "http://www.adamtuliper.com/feeds/posts/default",
+    "owner": "Adam Tuliper"
+  },
+  {
+    "url": "http://addyosmani.com/rss.xml",
+    "owner": "Addy Osmani"
+  },
+  {
+    "url": "https://blog.acolyer.org/feed/",
+    "owner": "Adrian Colyer"
+  },
+  {
+    "url": "https://alanstorm.com/feed/feed.xml",
+    "owner": "Alan Storm"
+  },
+  {
+    "url": "http://arogozhnikov.github.io/feed.xml",
+    "owner": "Alex Rogozhnikov"
+  },
+  {
+    "url": "https://infrequently.org/feed/",
+    "owner": "Alex Russell"
+  },
+  {
+    "url": "http://akaptur.com/atom.xml",
+    "owner": "Allison Kaptur"
+  },
+  {
+    "url": "https://www.amitmerchant.com/feed.xml",
+    "owner": "Amit Merchant"
+  },
+  {
+    "url": "http://aarvik.dk/rss/",
+    "owner": "Anders Aarvik"
+  },
+  {
+    "url": "https://computer.forensikblog.de/en/atom.xml",
+    "owner": "Andreas Schuster"
+  },
+  {
+    "url": "https://www.andrewcbancroft.com/feed/",
+    "owner": "Andrew Bancroft"
+  },
+  {
+    "url": "https://blog.bramp.net/index.xml",
+    "owner": "Andrew Brampton"
+  },
+  {
+    "url": "http://blog.andrewray.me/rss/",
+    "owner": "Andrew Ray"
+  },
+  {
+    "url": "http://aakinshin.net/en/rss.xml",
+    "owner": "Andrey Akinshin"
+  },
+  {
+    "url": "http://antirez.com/rss",
+    "owner": "Antirez"
+  },
+  {
+    "url": "https://www.devroom.io/index.xml",
+    "owner": "Ariejan de Vroom"
+  },
+  {
+    "url": "https://ariya.io/index.xml",
+    "owner": "Ariya Hidayat"
+  },
+  {
+    "url": "http://lucumr.pocoo.org/feed.atom",
+    "owner": "Armin Ronacher"
+  },
+  {
+    "url": "http://feeds.feedburner.com/2ality",
+    "owner": "Axel Rauschmayer"
+  },
+  {
+    "url": "http://bad-concurrency.blogspot.com/feeds/posts/default",
+    "owner": "Bad Concurrency"
+  },
+  {
+    "url": "http://www.wefearchange.org/feeds/all.atom.xml",
+    "owner": "Barry Warsaw"
+  },
+  {
+    "url": "https://www.bfilipek.com/feeds/posts/default",
+    "owner": "Bartlomiej Filipek"
+  },
+  {
+    "url": "https://benmccormick.org/feed.json",
+    "owner": "Ben McCormick"
+  },
+  {
+    "url": "http://www.billthelizard.com/feeds/posts/default",
+    "owner": "Bill the Lizard"
+  },
+  {
+    "url": "https://bjornjohansen.no/feed",
+    "owner": "Bjørn Johansen"
+  },
+  {
+    "url": "https://blog.blakeerickson.com/feed.xml",
+    "owner": "Blake Erickson"
+  },
+  {
+    "url": "http://blog.blundellapps.co.uk/feed/",
+    "owner": "Blundell's Android Tutorials"
+  },
+  {
+    "url": "https://bohops.com/feed/",
+    "owner": "Bohops"
+  },
+  {
+    "url": "http://rhodesmill.org/brandon/feed",
+    "owner": "Brandon Rhodes"
+  },
+  {
+    "url": "https://brendaneich.com/feed/",
+    "owner": "Brendan Eich"
+  },
+  {
+    "url": "http://www.brendangregg.com/blog/rss.xml",
+    "owner": "Brendan Gregg"
+  },
+  {
+    "url": "https://medium.com/feed/@elbrujohalcon",
+    "owner": "Brujo Benavides"
+  },
+  {
+    "url": "http://dtrace.org/blogs/bmc/feed/",
+    "owner": "Bryan Cantrill"
+  },
+  {
+    "url": "https://carlosbecker.com/index.xml",
+    "owner": "Carlos Becker"
+  },
+  {
+    "url": "https://www.chenhuijing.com/feed.xml",
+    "owner": "Chen Hui Jing"
+  },
+  {
+    "url": "http://thelazylog.com/rss/",
+    "owner": "Chien Tran"
+  },
+  {
+    "url": "https://www.metachris.com/index.xml",
+    "owner": "Chris Hager"
+  },
+  {
+    "url": "http://nullprogram.com/feed/",
+    "owner": "Chris Wellons"
+  },
+  {
+    "url": "http://blog.claymcleod.io/atom.xml",
+    "owner": "Clay McLeod"
+  },
+  {
+    "url": "http://www.cimgf.com/feed/",
+    "owner": "Cocoa Is My Girlfriend"
+  },
+  {
+    "url": "https://codewithstyle.info/feed/",
+    "owner": "Code with style!"
+  },
+  {
+    "url": "https://tympanus.net/codrops/rss",
+    "owner": "Codrops"
+  },
+  {
+    "url": "https://medium.com/feed/dailyjs",
+    "owner": "Daily JS"
+  },
+  {
+    "url": "http://dailytechvideo.com/feed/",
+    "owner": "Daily Tech Video"
+  },
+  {
+    "url": "https://danluu.com/atom.xml",
+    "owner": "Dan Luu"
+  },
+  {
+    "url": "https://code.dblock.org/feed.xml",
+    "owner": "Daniel Doubrovkine (dB.)"
+  },
+  {
+    "url": "https://medium.com/feed/@dschmidt1992",
+    "owner": "Daniel Schmidt"
+  },
+  {
+    "url": "https://www.datchley.name/rss/",
+    "owner": "Dave Atchley"
+  },
+  {
+    "url": "https://dave.cheney.net/feed",
+    "owner": "Dave Cheney"
+  },
+  {
+    "url": "https://davidwalsh.name/feed/atom",
+    "owner": "David Walsh"
+  },
+  {
+    "url": "https://deanhume.com/rss/",
+    "owner": "Dean Hume"
+  },
+  {
+    "url": "http://deborah-digges.github.io/atom.xml",
+    "owner": "Deborah Digges"
+  },
+  {
+    "url": "https://hookrace.net/blog/feed/",
+    "owner": "Dennis Felsing"
+  },
+  {
+    "url": "https://yurichev.com/blog/rss.xml",
+    "owner": "Dennis Yurichev"
+  },
+  {
+    "url": "https://www.dereuromark.de/feed/",
+    "owner": "Dereuromark"
+  },
+  {
+    "url": "https://www.discovermeteor.com/feed.xml",
+    "owner": "Discover Meteor"
+  },
+  {
+    "url": "https://domenicoluciani.com/feed.xml",
+    "owner": "Domenico Luciani"
+  },
+  {
+    "url": "https://dotdev.co/feed/",
+    "owner": "Dot Dev (.dev)"
+  },
+  {
+    "url": "https://dragan.rocks/feed.xml",
+    "owner": "Dragan Djuric"
+  },
+  {
+    "url": "https://www.gajotres.net/feed/",
+    "owner": "Dragan Gaic"
+  },
+  {
+    "url": "https://drewdevault.com/feed.xml",
+    "owner": "Drew DeVault"
+  },
+  {
+    "url": "http://www.practicallyefficient.com/feed.xml",
+    "owner": "Eddie Smith"
+  },
+  {
+    "url": "https://hyegar.com/rss.xml",
+    "owner": "Edgar Aroutiounian"
+  },
+  {
+    "url": "https://eaf4.com/rss",
+    "owner": "Edward Faulkner"
+  },
+  {
+    "url": "https://elegantcode.com/feed/",
+    "owner": "Elegant Code"
+  },
+  {
+    "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
+    "owner": "Eli Bendersky"
+  },
+  {
+    "url": "https://medium.com/feed/javascript-scene",
+    "owner": "Eric Elliot"
+  },
+  {
+    "url": "https://ericlippert.com/feed/",
+    "owner": "Eric Lippert"
+  },
+  {
+    "url": "https://erikrunyon.com/feed.xml",
+    "owner": "Erik Runyon"
+  },
+  {
+    "url": "https://evanhahn.com/feed.xml",
+    "owner": "Evan Hahn"
+  },
+  {
+    "url": "http://www.evanjones.ca/index.rss",
+    "owner": "Evan Jones"
+  },
+  {
+    "url": "http://www.evanmiller.org/news.xml",
+    "owner": "Evan Miller"
+  },
+  {
+    "url": "https://blog.evantahler.com/feed",
+    "owner": "Evan Tahler"
+  },
+  {
+    "url": "http://fbrnc.net/blog.atom",
+    "owner": "Fabrizio Branca"
+  },
+  {
+    "url": "https://blog.fedecarg.com/feed/",
+    "owner": "Federico Cargnelutti"
+  },
+  {
+    "url": "https://tomassetti.me/feed/",
+    "owner": "Federico Tomassetti"
+  },
+  {
+    "url": "https://blog.filippo.io/rss/",
+    "owner": "Filippo Valsorda"
+  },
+  {
+    "url": "https://murze.be/feed",
+    "owner": "Freek Van der Herten"
+  },
+  {
+    "url": "https://glebbahmutov.com/blog/atom.xml",
+    "owner": "Gleb Bahmutov"
+  },
+  {
+    "url": "http://glennengstrand.info/blog/?feed=rss2",
+    "owner": "Glenn Engstrand"
+  },
+  {
+    "url": "https://www.darkcoding.net/feed/",
+    "owner": "Graham King"
+  },
+  {
+    "url": "http://neopythonic.blogspot.com/feeds/posts/default",
+    "owner": "Guido van Rossum"
+  },
+  {
+    "url": "https://firstdoit.com/feed",
+    "owner": "Guilherme Rodrigues"
+  },
+  {
+    "url": "https://haydenjames.io/rss",
+    "owner": "Hayden James"
+  },
+  {
+    "url": "https://conductofcode.io/feed.xml",
+    "owner": "Henrik Lau Eriksson"
+  },
+  {
+    "url": "https://henrikwarne.com/feed/",
+    "owner": "Henrik Warne"
+  },
+  {
+    "url": "http://feeds.feedburner.com/HighScalability",
+    "owner": "High Scalability"
+  },
+  {
+    "url": "http://huonw.github.io/blog/atom.xml",
+    "owner": "Huon Wilson"
+  },
+  {
+    "url": "https://blog.hypriot.com/index.xml",
+    "owner": "Hypriot"
+  },
+  {
+    "url": "https://themodernlife.github.io/feed.xml",
+    "owner": "Ian Hummel"
+  },
+  {
+    "url": "http://iansommerville.com/systems-software-and-technology/feed/",
+    "owner": "Ian Sommerville"
+  },
+  {
+    "url": "https://idontgetoutmuch.wordpress.com/feed/",
+    "owner": "Idontgetoutmuch's Weblog"
+  },
+  {
+    "url": "http://stdout.in/en/cat/all.rss",
+    "owner": "Ievgen Kuzminov"
+  },
+  {
+    "url": "http://ieftimov.com/feed.xml",
+    "owner": "Ilija Eftimov"
+  },
+  {
+    "url": "https://www.igvita.com/feed/",
+    "owner": "Ilya Grigorik"
+  },
+  {
+    "url": "https://codewithoutrules.com/atom.xml",
+    "owner": "Itamar Turner-Trauring"
+  },
+  {
+    "url": "https://ivanursul.com/feed.xml",
+    "owner": "Ivan Ursul"
+  },
+  {
+    "url": "https://jack.ofspades.com/rss/index.html",
+    "owner": "Jacopo Tarantino"
+  },
+  {
+    "url": "https://jaketrent.com/index.xml",
+    "owner": "Jake Trent"
+  },
+  {
+    "url": "http://jakewharton.com/feed.xml",
+    "owner": "Jake Wharton"
+  },
+  {
+    "url": "http://jakeyesbeck.com/atom.xml",
+    "owner": "Jake Yesbeck"
+  },
+  {
+    "url": "http://prog21.dadgum.com/atom.xml",
+    "owner": "James Hague"
+  },
+  {
+    "url": "http://feedpress.me/jlongster",
+    "owner": "James Long"
+  },
+  {
+    "url": "http://feeds.feedburner.com/buckblog",
+    "owner": "Jamis Buck"
+  },
+  {
+    "url": "https://idiosyncratic-ruby.com/feed.xml",
+    "owner": "Jan Lelis"
+  },
+  {
+    "url": "http://blog.jayfields.com/feeds/posts/default",
+    "owner": "Jay Fields"
+  },
+  {
+    "url": "http://feeds.feedburner.com/codinghorror",
+    "owner": "Jeff Atwood"
+  },
+  {
+    "url": "http://preshing.com/feed",
+    "owner": "Jeff Preshing"
+  },
+  {
+    "url": "https://jeremykun.com/feed/",
+    "owner": "Jeremy Kun"
+  },
+  {
+    "url": "https://jerrygamblin.com/feed/",
+    "owner": "Jerry Gamblin"
+  },
+  {
+    "url": "https://jes.al/atom.xml",
+    "owner": "Jesal Gadhia"
+  },
+  {
+    "url": "https://blog.jessfraz.com/index.xml",
+    "owner": "Jessie Frazelle"
+  },
+  {
+    "url": "http://www.blackbytes.info/rss",
+    "owner": "Jesus Castello"
+  },
+  {
+    "url": "https://begriffs.com/atom.xml",
+    "owner": "Joe Nelson"
+  },
+  {
+    "url": "https://www.joelonsoftware.com/feed/",
+    "owner": "Joel Spolsky"
+  },
+  {
+    "url": "http://johannesbrodwall.com/feed/",
+    "owner": "Johannes Brodwall"
+  },
+  {
+    "url": "https://feeds.feedburner.com/JohnResig",
+    "owner": "John Resig"
+  },
+  {
+    "url": "https://www.johnwittenauer.net/rss/",
+    "owner": "John Wittenauer"
+  },
+  {
+    "url": "http://www.jonkensy.com/feed/",
+    "owner": "Jon Kensy"
+  },
+  {
+    "url": "https://codeblog.jonskeet.uk/feed/",
+    "owner": "Jon Skeet"
+  },
+  {
+    "url": "https://blog.cugu.eu/index.xml",
+    "owner": "Jonas Plum"
+  },
+  {
+    "url": "http://www.born2data.com/feed_atom.xml",
+    "owner": "Jonathan Dekhtiar"
+  },
+  {
+    "url": "https://snook.ca/jonathan/index.rdf",
+    "owner": "Jonathan Snook"
+  },
+  {
+    "url": "http://blog.reverberate.org/feed.xml",
+    "owner": "Josh Haberman"
+  },
+  {
+    "url": "https://joshtronic.com/atom.xml",
+    "owner": "Josh Sherman"
+  },
+  {
+    "url": "https://jtreminio.com/atom.xml",
+    "owner": "Juan Treminio"
+  },
+  {
+    "url": "https://jvns.ca/atom.xml",
+    "owner": "Julia Evans"
+  },
+  {
+    "url": "https://blog.jgrossi.com/feed/",
+    "owner": "Junior Grossi"
+  },
+  {
+    "url": "https://www.justinweiss.com/atom.xml",
+    "owner": "Justin Weiss"
+  },
+  {
+    "url": "https://feeds.feedburner.com/juristrumpflohner",
+    "owner": "Juri Strumpflohner"
+  },
+  {
+    "url": "https://useyourloaf.com/blog/rss.xml",
+    "owner": "K. Harrison"
+  },
+  {
+    "url": "https://kev.inburke.com/feed/",
+    "owner": "Kevin Burke"
+  },
+  {
+    "url": "https://medium.com/feed/@kirill_shevch",
+    "owner": "Kirill Shevchenko"
+  },
+  {
+    "url": "https://aphyr.com/posts.atom",
+    "owner": "Kyle Kingsbury"
+  },
+  {
+    "url": "http://lambda-the-ultimate.org/rss.xml",
+    "owner": "Lambda the Ultimate"
+  },
+  {
+    "url": "http://lg.io/feed.xml",
+    "owner": "Larry Land"
+  },
+  {
+    "url": "https://iridakos.com/feed.xml",
+    "owner": "Lazarus Lazaridis"
+  },
+  {
+    "url": "http://lea.verou.me/feed/",
+    "owner": "Lea Verou"
+  },
+  {
+    "url": "http://blog.lerner.co.il/feed/",
+    "owner": "Lerner Consulting Blog"
+  },
+  {
+    "url": "http://lifepluslinux.blogspot.com/feeds/posts/default",
+    "owner": "Life Plus Linux"
+  },
+  {
+    "url": "http://loige.co/rss/",
+    "owner": "Luciano Mammino"
+  },
+  {
+    "url": "http://manu.sporny.org/feed/",
+    "owner": "Manu Sporny"
+  },
+  {
+    "url": "https://enoent.fr/atom.xml",
+    "owner": "Marc Plano-Lesay"
+  },
+  {
+    "url": "https://blog.rinesi.com/feed/",
+    "owner": "Marcelo Rinesi"
+  },
+  {
+    "url": "https://ocramius.github.io/atom.xml",
+    "owner": "Marco Pivetta"
+  },
+  {
+    "url": "https://idea.popcount.org/rss.xml",
+    "owner": "Marek Majkowski"
+  },
+  {
+    "url": "http://lackingrhoticity.blogspot.com/feeds/posts/default",
+    "owner": "Mark Seaborn"
+  },
+  {
+    "url": "https://martinfowler.com/feed.atom",
+    "owner": "Martin Fowler"
+  },
+  {
+    "url": "https://maryrosecook.com/blog/feed.xml",
+    "owner": "Mary Rose Cook"
+  },
+  {
+    "url": "https://matt.aimonetti.net/atom.xml",
+    "owner": "Matt Aimonetti"
+  },
+  {
+    "url": "https://www.mattcutts.com/blog/feed/",
+    "owner": "Matt Cutts"
+  },
+  {
+    "url": "http://matt.might.net/articles/feed.rss",
+    "owner": "Matt Might"
+  },
+  {
+    "url": "http://mattwarren.org/atom.xml",
+    "owner": "Matt Warren"
+  },
+  {
+    "url": "https://blog.cryptographyengineering.com/feed/",
+    "owner": "Matthew Green"
+  },
+  {
+    "url": "https://www.michaelcrump.net/feed.xml",
+    "owner": "Michael Crump"
+  },
+  {
+    "url": "http://www.michaelgallego.fr/feed.xml",
+    "owner": "Michaël Gallego"
+  },
+  {
+    "url": "http://mherman.org/feed.xml",
+    "owner": "Michael Herman"
+  },
+  {
+    "url": "https://www.miqu.me/atom.xml",
+    "owner": "Miguel Quinones"
+  },
+  {
+    "url": "http://www.mikeash.com/pyblog/rss.py",
+    "owner": "Mike Ash"
+  },
+  {
+    "url": "http://blog.fogus.me/feed/",
+    "owner": "Mike Fogus"
+  },
+  {
+    "url": "https://blog.sleeplessbeastie.eu/feed.xml",
+    "owner": "Milosz Galazka"
+  },
+  {
+    "url": "https://mirocupak.com/feed.xml",
+    "owner": "Miro Cupak"
+  },
+  {
+    "url": "https://meowni.ca/atom.xml",
+    "owner": "Monica Dinculescu"
+  },
+  {
+    "url": "https://blog.monstermuffin.org/feed/",
+    "owner": "Monstermuffin"
+  },
+  {
+    "url": "http://feeds.feedburner.com/mishadoff",
+    "owner": "Mykhailo Kozik"
+  },
+  {
+    "url": "https://natashatherobot.com/rss",
+    "owner": "Natasha Murashev"
+  },
+  {
+    "url": "https://blog.nelhage.com/atom.xml",
+    "owner": "Nelson Elhage"
+  },
+  {
+    "url": "https://www.thepolyglotdeveloper.com/blog/index.xml",
+    "owner": "Nic Raboy"
+  },
+  {
+    "url": "https://nickcraver.com/blog/feed.xml",
+    "owner": "Nick Craver"
+  },
+  {
+    "url": "https://nickdesaulniers.github.io/atom.xml",
+    "owner": "Nick Desaulniers"
+  },
+  {
+    "url": "https://www.client9.com/index.xml",
+    "owner": "Nick Galbreath"
+  },
+  {
+    "url": "http://blog.thislongrun.com/feeds/posts/default",
+    "owner": "Nicolas Liochon"
+  },
+  {
+    "url": "http://blog.codefx.org/feed/",
+    "owner": "Nicolai Parlog (CodeFX)"
+  },
+  {
+    "url": "http://www.nikola-breznjak.com/blog/feed/atom/",
+    "owner": "Nikola Brežnjak"
+  },
+  {
+    "url": "http://nikolay.rocks/atom.xml",
+    "owner": "Nikolay Nemshilov"
+  },
+  {
+    "url": "https://nshipster.com/feed.xml",
+    "owner": "NSHipster"
+  },
+  {
+    "url": "https://www.nateberkopec.com/feed.xml",
+    "owner": "Nate Berkopec"
+  },
+  {
+    "url": "https://fullstack.info/feed/",
+    "owner": "Ofer Zelig"
+  },
+  {
+    "url": "https://oleb.net/blog/atom.xml",
+    "owner": "Ole Begemann"
+  },
+  {
+    "url": "http://www.windytan.com/feeds/posts/default",
+    "owner": "Oona Räisänen"
+  },
+  {
+    "url": "http://blog.pamelafox.org/feeds/posts/default",
+    "owner": "Pamela Fox"
+  },
+  {
+    "url": "http://feeds2.feedburner.com/patshaughnessy",
+    "owner": "Pat Shaughnessy"
+  },
+  {
+    "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+    "owner": "Paul Graham"
+  },
+  {
+    "url": "https://feeds.feedburner.com/paul-irish",
+    "owner": "Paul Irish"
+  },
+  {
+    "url": "https://aerotwist.com/blog/feed/",
+    "owner": "Paul Lewis"
+  },
+  {
+    "url": "https://blog.pchudzik.com/index.xml",
+    "owner": "Paweł Chudzik"
+  },
+  {
+    "url": "http://www.norvig.com/rss-feed.xml",
+    "owner": "Peter Norvig"
+  },
+  {
+    "url": "http://petersteinberger.com/atom.xml",
+    "owner": "Peter Steinberger"
+  },
+  {
+    "url": "http://www.catonmat.net/feed/",
+    "owner": "Peteris Krumins"
+  },
+  {
+    "url": "https://petr-mitrichev.blogspot.com/feeds/posts/default",
+    "owner": "Petr Mitrichev"
+  },
+  {
+    "url": "https://feeds.feedburner.com/philipwalton",
+    "owner": "Philip Walton"
+  },
+  {
+    "url": "https://os.phil-opp.com/atom.xml",
+    "owner": "Philipp Oppermann"
+  },
+  {
+    "url": "https://feeds.feedburner.com/ponyfoo",
+    "owner": "Pony Foo"
+  },
+  {
+    "url": "http://piotrpasich.com/feed/",
+    "owner": "Piotr Pasich"
+  },
+  {
+    "url": "http://blog.wittchen.biz.pl/feed.xml",
+    "owner": "Piotr Wittchen"
+  },
+  {
+    "url": "https://rachelbythebay.com/w/atom.xml",
+    "owner": "Rachel Kroll"
+  },
+  {
+    "url": "http://radek.io/rss.xml",
+    "owner": "Radek Pazdera"
+  },
+  {
+    "url": "https://radimrehurek.com/feed/",
+    "owner": "Radim Řehůřek"
+  },
+  {
+    "url": "https://nativeguru.wordpress.com/feed/",
+    "owner": "Ramon Fried"
+  },
+  {
+    "url": "https://www.raywenderlich.com/rss",
+    "owner": "Ray Wenderlich"
+  },
+  {
+    "url": "https://blogs.msdn.microsoft.com/oldnewthing/feed",
+    "owner": "Raymond Chen"
+  },
+  {
+    "url": "https://rhettinger.wordpress.com/feed/",
+    "owner": "Raymond Hettinger"
+  },
+  {
+    "url": "https://reactjsnews.com/feed.xml",
+    "owner": "ReactJS News"
+  },
+  {
+    "url": "https://realpython.com/atom.xml",
+    "owner": "Real Python"
+  },
+  {
+    "url": "http://raganwald.com/atom.xml",
+    "owner": "Reginald Braithwaite"
+  },
+  {
+    "url": "http://feeds.regulargeek.com/RegularGeek",
+    "owner": "Regular Geek"
+  },
+  {
+    "url": "https://akrabat.com/feed/",
+    "owner": "Rob Allen"
+  },
+  {
+    "url": "http://blog.cleancoder.com/atom.xml",
+    "owner": "Robert C. Martin"
+  },
+  {
+    "url": "https://eviltrout.com/feed.xml",
+    "owner": "Robin Ward"
+  },
+  {
+    "url": "http://blog.rtwilson.com/feed/",
+    "owner": "Robin Wilson"
+  },
+  {
+    "url": "http://www.rudyhuyn.com/blog/feed/",
+    "owner": "Rudy Huyn"
+  },
+  {
+    "url": "https://neverfriday.com/feed/",
+    "owner": "Rudolf Olah"
+  },
+  {
+    "url": "https://ruslanspivak.com/feeds/all.atom.xml",
+    "owner": "Ruslan Spivak"
+  },
+  {
+    "url": "https://www.sakib.ninja/rss/",
+    "owner": "Sakib Sami"
+  },
+  {
+    "url": "http://samsaffron.com/posts.rss",
+    "owner": "Sam Saffron"
+  },
+  {
+    "url": "http://sergeyzhuk.me/feed.xml",
+    "owner": "Sergey Zhuk"
+  },
+  {
+    "url": "https://schakko.de/feed",
+    "owner": "Schakko"
+  },
+  {
+    "url": "http://feeds.hanselman.com/ScottHanselman",
+    "owner": "Scott Hanselman"
+  },
+  {
+    "url": "http://fuzzyblog.io//blog/feed.xml",
+    "owner": "Scott Johnson"
+  },
+  {
+    "url": "https://devdactic.com/feed/",
+    "owner": "Simon Reimler"
+  },
+  {
+    "url": "https://www.9lessons.info/feeds/posts/default",
+    "owner": "Srinivas Tamada"
+  },
+  {
+    "url": "http://stackabuse.com/rss/",
+    "owner": "Stack Abuse"
+  },
+  {
+    "url": "https://muffinman.io/atom.xml",
+    "owner": "Stanko Tadić"
+  },
+  {
+    "url": "http://codebeforethehorse.tumblr.com/rss",
+    "owner": "Stefan Parker"
+  },
+  {
+    "url": "http://blog.joda.org/feeds/posts/default",
+    "owner": "Stephen Colebourne"
+  },
+  {
+    "url": "https://www.cs.columbia.edu/~smb/blog/control/blog.xml",
+    "owner": "Steve Bellovin"
+  },
+  {
+    "url": "https://steve-yegge.blogspot.com/feeds/posts/default",
+    "owner": "Steve Yegge"
+  },
+  {
+    "url": "http://sudhagar.com/feed.xml",
+    "owner": "Sudhagar"
+  },
+  {
+    "url": "https://swizec.com/blog/feed",
+    "owner": "Swizec Teller"
+  },
+  {
+    "url": "https://tania.dev/rss.xml",
+    "owner": "Tania Rascia"
+  },
+  {
+    "url": "http://teropa.info/blog/feed.xml",
+    "owner": "Tero Parviainen"
+  },
+  {
+    "url": "https://thatthinginswift.com/index.xml",
+    "owner": "That Thing In Swift"
+  },
+  {
+    "url": "https://thecodedself.github.io/feed.xml",
+    "owner": "The Coded Self"
+  },
+  {
+    "url": "http://thedailywtf.com/rss",
+    "owner": "The Daily WTF"
+  },
+  {
+    "url": "http://upcoder.com/feed",
+    "owner": "Thomas Young"
+  },
+  {
+    "url": "http://jelv.is/blog/rss.xml",
+    "owner": "Tikhon Jelvis"
+  },
+  {
+    "url": "https://toddmotto.com/feed.xml",
+    "owner": "Todd Motto"
+  },
+  {
+    "url": "http://www.tjmaher.com/feeds/posts/default",
+    "owner": "T.J. Maher"
+  },
+  {
+    "url": "https://una.im/feed.xml",
+    "owner": "Una Kravets"
+  },
+  {
+    "url": "https://undocumentedmatlab.com/feed",
+    "owner": "Undocumented Matlab"
+  },
+  {
+    "url": "http://vanillajava.blogspot.com/feeds/posts/default",
+    "owner": "Vanilla Java"
+  },
+  {
+    "url": "https://vladmihalcea.com/feed/",
+    "owner": "Vlad Mihalcea"
+  },
+  {
+    "url": "http://www.wilfred.me.uk/rss.xml",
+    "owner": "Wilfred Hughes"
+  },
+  {
+    "url": "https://www.ardanlabs.com/blog/index.xml",
+    "owner": "William Kennedy"
+  },
+  {
+    "url": "http://www.afronski.pl/feed.xml",
+    "owner": "Wojtek Gawroński"
+  },
+  {
+    "url": "https://www.yegor256.com/rss.xml",
+    "owner": "Yegor Bugayenko"
+  },
+  {
+    "url": "http://yifan.lu/feed.xml",
+    "owner": "Yifan Lu"
+  },
+  {
+    "url": "https://zachholman.com/atom.xml",
+    "owner": "Zach Holman"
+  },
+  {
+    "url": "https://zolmeister.com/feeds/posts/default",
+    "owner": "Zolmeister"
+  },
+  {
+    "url": "https://android-developers.googleblog.com/feeds/posts/default",
+    "owner": "Android"
+  },
+  {
+    "url": "http://blog.atom.io/feed.xml",
+    "owner": "Atom.io"
+  },
+  {
+    "url": "https://blog.getbootstrap.com/feed.xml",
+    "owner": "Bootstrap.com"
+  },
+  {
+    "url": "https://crystal-lang.org/feed.xml",
+    "owner": "Crystal"
+  },
+  {
+    "url": "https://blog.golang.org/feed.atom",
+    "owner": "Go"
+  },
+  {
+    "url": "https://ipfs.io/blog/index.xml",
+    "owner": "IPFS"
+  },
+  {
+    "url": "https://blog.jooq.org/feed/",
+    "owner": "jOOQ"
+  },
+  {
+    "url": "http://blog.klipse.tech//feed.xml",
+    "owner": "Klipse"
+  },
+  {
+    "url": "https://blog.jetbrains.com/kotlin/feed/",
+    "owner": "Kotlin"
+  },
+  {
+    "url": "https://feed.laravel-news.com/",
+    "owner": "Laravel"
+  },
+  {
+    "url": "https://blogs.windows.com/msedgedev/rss",
+    "owner": "Microsoft Edge"
+  },
+  {
+    "url": "https://blogs.msdn.microsoft.com/dotnet/feed/",
+    "owner": ".NET"
+  },
+  {
+    "url": "https://reactjs.org/feed.xml",
+    "owner": "React"
+  },
+  {
+    "url": "https://facebook.github.io/react-native/blog/atom.xml",
+    "owner": "React Native"
+  },
+  {
+    "url": "https://www.red-lang.org/feeds/posts/default",
+    "owner": "Red"
+  },
+  {
+    "url": "http://rocksdb.org/feed.xml",
+    "owner": "RocksDB"
+  },
+  {
+    "url": "https://blog.rust-lang.org/feed.xml",
+    "owner": "Rust"
+  },
+  {
+    "url": "https://blog.sketchapp.com/feed",
+    "owner": "Sketch"
+  },
+  {
+    "url": "https://developer.apple.com/swift/blog/news.rss",
+    "owner": "Swift"
+  },
+  {
+    "url": "http://www.vertabelo.com/_rss/blog.xml",
+    "owner": "Vertabelo"
+  }
+]
