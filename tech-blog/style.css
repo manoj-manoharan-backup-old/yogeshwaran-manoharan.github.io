@@ -12,3 +12,13 @@ body{
     color: black;
     font-style: normal;
 }
+
+div .scroll {
+    margin:4px, 4px;
+    padding:4px;
+    width: 200px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
