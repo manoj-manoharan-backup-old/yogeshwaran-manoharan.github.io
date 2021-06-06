@@ -21,7 +21,7 @@ class Aggregator {
     /** */
     async runAggregation() {
 
-        // await this.fetchContentFromRSSFeedsAndSaveToDb();
+        await this.fetchContentFromRSSFeedsAndSaveToDb();
 
         await this.fetchDatesFromDbAndWriteToJson();
 
