@@ -25,6 +25,8 @@ class Aggregator {
 
         await this.fetchDatesFromDbAndWriteToJson();
 
+        await this.fetchCompaniesFromDbAndWriteToJson();
+
         await this.fetchArticleLinksFromDbByDatesAndWriteToJson();
 
         return true;
@@ -219,7 +221,7 @@ class Aggregator {
 
     /** */
     getTimestamp(dateIsoString) {
-        return this.isValidString(dateIsoString) ? moment(dateIsoString).format('YYYY-MM-DD 00:00:00') :'2006-01-01 00:00:00';
+        return this.isValidString(dateIsoString) ? moment(dateIsoString).format('YYYY-MM-DD 00:00:00') : '2006-01-01 00:00:00';
     }
 
     /** */
@@ -265,6 +267,50 @@ class Aggregator {
         return query;
     }
 
+
+    /** */
+    async fetchCompaniesFromDbAndWriteToJson() {
+
+        let err = null;
+
+        try {
+
+            let companyRows = await this.getCompanyRows();
+
+            if (companyRows && Array.isArray(companyRows)) {
+
+                companyRows = companyRows.map(row => {
+                    return row.owner;
+                });
+
+                fileSystem.writeFileSync('../api/companies.json', JSON.stringify(companyRows), 'utf-8');
+
+                return true;
+            }
+        } catch (e) {
+            err = e.toString();
+        }
+
+        throw new Error("fetchCompaniesFromDbAndWriteToJson - companies list is not created : " + err);
+    }
+
+    /** */
+    getCompanyRows(limit) {
+
+        let query = KnexDb(TECH_BLOG_TABLE)
+            .distinct()
+            .select({
+                owner: "owner"
+            })
+            .orderBy('owner', 'asc')
+
+        if (limit) {
+            query = query.limit(limit);
+        }
+
+        return query;
+    }
+
     /** */
     async fetchArticleLinksFromDbByDatesAndWriteToJson() {
 
@@ -297,7 +343,7 @@ class Aggregator {
                         }
                     })
 
-                    fileSystem.writeFileSync('../api/' + allDates[i] + ".json", JSON.stringify(articles), 'utf-8');
+                    fileSystem.writeFileSync('../api/dates/' + allDates[i] + ".json", JSON.stringify(articles), 'utf-8');
                 }
 
                 return true;

@@ -1,1 +1,0 @@
-[{"title":"\nWAIT: synchronous replication for Redis\n","description":"Redis unstable has a new command called \"WAIT\". Such a simple name, is indeed the incarnation of a simple feature consisting of less than 200 lines of code, but providing an interesting way to change the default behavior of Redis replication.\n","link":"\nhttp://antirez.com/news/66\n","owner":"Antirez"}]

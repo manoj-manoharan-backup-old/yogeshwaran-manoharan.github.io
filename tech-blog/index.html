@@ -4,9 +4,13 @@
     <title>Read All Tech Blogs in One place!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--suppress JSUnresolvedLibraryURL -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--suppress JSUnresolvedLibraryURL -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--suppress JSUnresolvedLibraryURL -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--suppress JSUnresolvedLibraryURL -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
@@ -14,7 +18,8 @@
 <body>
 
 <div class="text-center" style="margin-bottom:0">
-    <h1>Tech Blog aggregation by <a href="/index.html"><img height="50" width="50" src="../profile.png"></a></h1> (Under
+    <h1>Tech Blog aggregation by <a href="/index.html"><!--suppress CheckImageSize -->
+        <img height="50" width="50" src="../profile.png" alt="Manoj"></a></h1> (Under
     Construction)
 </div>
 <hr>
@@ -23,7 +28,7 @@
     <div class="row">
         <div class="col-sm-4 scroll">
             <p><br/></p>
-            <ul id="dates-navbar" class="nav nav-pills nav-stacked">
+            <ul id="companies-navbar" class="nav nav-pills nav-stacked">
                 <!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
                 <!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
             </ul>
@@ -36,79 +41,132 @@
         </div>
     </div>
 </div>
-
+<script src="./app.js"></script>
 <script>
 
+    /** Initializing */
     const LOCAL = "yogeshwaran-manoharan";
 
-    const DOMAIN = window.location.origin;
+    const ORIGIN_DOMAIN = window.location.origin;
     const URI = "tech-blog/api";
 
-    const BUILT_URI = (DOMAIN.includes("localhost")) ? LOCAL + "/" + URI : URI;
+    const BUILT_URI = (ORIGIN_DOMAIN.includes("localhost")) ? LOCAL + "/" + URI : URI;
 
-    function fetchDescription(description) {
-        let res = "";
-        try {
-            if (description) {
-                res = description.length > 990 || description.includes("<img") ? "" : description
-            }
-        } catch (e) {
-            console.log(e);
-        }
+    const REQUEST_DOMAIN = ORIGIN_DOMAIN + "/" + BUILT_URI;
 
-        return res;
-    }
+
+    /** */
 
     $(document).ready(function () {
 
+        // Events will be declared here and `rssAggregator` object will be used for internal logic
+        const rssAggregator = new RssAggregator();
+
+        // Get all companies from companies.json api
         $.ajax({
-            url: DOMAIN + "/" + BUILT_URI + "/dates.json",
+            url: REQUEST_DOMAIN + "/companies.json",
             type: "GET",
-            success: function (dataResult) {
-
-                let resultHtml = ``;
-
-                dataResult.forEach((date) => {
-                    resultHtml += `<li class="date-nav-selection"><a href="#">${date}</a></li>`;
-                })
-
-                $("#dates-navbar").html(resultHtml);
+            success: function (companies) {
+                rssAggregator
+                    .setAvailableCompanies(companies)
+                    .regenerateAndSetCompaniesHtml()
             }
         });
 
-        $(document).on("click", ".date-nav-selection", function (e) {
+        // On clicking on add fav company
+        $(document).on("click", "#addFavCompany", function () {
+            rssAggregator.addToFavourites($(this).val());
+        })
 
-            const date = e.target.innerText;
+        // On clicking on remove fav company
+        $(document).on("click", "#removeFavCompany", function () {
+            rssAggregator.removeFromFavourites($(this).val());
+        })
 
-            $.ajax({
-                url: DOMAIN + "/" + BUILT_URI + "/" + date + ".json",
-                type: "GET",
-                success: function (dataResult) {
+        // On selecting a company in list
 
-                    let resultHtml = ``;
 
-                    for (let i = 0; i < dataResult.length; i++) {
-                        resultHtml += `
-                        <div class="card">
-                            <a href="${dataResult[i].link}" target="_blank">
-
-                                <h2>${dataResult[i].title || ""}</h2>
-                              <small>${dataResult[i].owner || ""}</small>
-                            </a>
-                        </div>
-                         <br>
-                        `
-                    }
-
-                    $('#blog-feed').html((resultHtml.length > 0) ? resultHtml : "No articles available.");
-                },
-                error: function () {
-                    $('#blog-feed').html("No articles available.");
-                }
-            });
-        });
+        // $(document).on("click", ".date-nav-selection", function (e) {
+        //
+        //     const date = e.target.innerText;
+        //
+        //     $.ajax({
+        //         url: DOMAIN + "/" + BUILT_URI + "/dates/" + date + ".json",
+        //         type: "GET",
+        //         success: function (dataResult) {
+        //
+        //             let resultHtml = ``;
+        //
+        //             for (let i = 0; i < dataResult.length; i++) {
+        //                 resultHtml += `
+        //                 <div class="card">
+        //                     <a href="${dataResult[i].link}" target="_blank">
+        //
+        //                         <h2>${dataResult[i].title || ""}</h2>
+        //                       <small>${dataResult[i].owner || ""}</small>
+        //                     </a>
+        //                 </div>
+        //                  <br>
+        //                 `
+        //             }
+        //
+        //             $('#blog-feed').html((resultHtml.length > 0) ? resultHtml : "No articles available.");
+        //         },
+        //         error: function () {
+        //             $('#blog-feed').html("No articles available.");
+        //         }
+        //     });
+        // });
     });
-</script>
 
+
+    // function addToSelectedCompanies(companies = []) {
+    //
+    //     // Add to selected if valid
+    //     if (companies.length > 0) {
+    //
+    //         alreadySelectedCompanies.push(...companies);
+    //
+    //         // remove from unselected list
+    //         for (let i = 0; i < companies.length; i++) {
+    //
+    //             const index = nonSelectedCompanies.indexOf(companies[i]);
+    //             if (index > -1) {
+    //                 nonSelectedCompanies.splice(index, 1);
+    //             }
+    //         }
+    //
+    //         // Call to update in unselected list
+    //         replaceCompaniesInUnselectedList();
+    //     }
+    //
+    //     // todo : Update in NavBar
+    //     console.log(alreadySelectedCompanies)
+    //
+    // }
+    //
+    // function replaceCompaniesInUnselectedList(companies = []) {
+    //
+    //     // Add to non selected companies if array is valid
+    //     if (companies.length > 0) {
+    //         nonSelectedCompanies.push(...companies);
+    //     }
+    //
+    //     let resultHtml = ``;
+    //
+    //     nonSelectedCompanies.forEach((company) => {
+    //
+    //         if (!alreadySelectedCompanies.includes(company)) {
+    //             resultHtml += `
+    //                         <li class="date-nav-selection">
+    //                         <input type="checkbox" value="checked" onclick="addToSelectedCompanies(['${company}'])"/> ${company}
+    //                         </li>
+    //                     `;
+    //         }
+    //     })
+    //
+    //     $("#companies-navbar").html(resultHtml);
+    // }
+</script>
 </body>
 </html>
