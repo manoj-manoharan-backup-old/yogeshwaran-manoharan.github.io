@@ -133,7 +133,7 @@
                         addArticles(articles);
 
                         if (!rssAggregator.didNewArticlesShowUp()) {
-                            $(document).trigger("regenerateBlogFeed");
+                            // no action
                         } else {
                             rssAggregator.resetNewArticlesFoundStatus();
                         }
@@ -153,54 +153,6 @@
         }
     });
 
-
-    // function addToSelectedCompanies(companies = []) {
-    //
-    //     // Add to selected if valid
-    //     if (companies.length > 0) {
-    //
-    //         alreadySelectedCompanies.push(...companies);
-    //
-    //         // remove from unselected list
-    //         for (let i = 0; i < companies.length; i++) {
-    //
-    //             const index = nonSelectedCompanies.indexOf(companies[i]);
-    //             if (index > -1) {
-    //                 nonSelectedCompanies.splice(index, 1);
-    //             }
-    //         }
-    //
-    //         // Call to update in unselected list
-    //         replaceCompaniesInUnselectedList();
-    //     }
-    //
-    //     // todo : Update in NavBar
-    //     console.log(alreadySelectedCompanies)
-    //
-    // }
-    //
-    // function replaceCompaniesInUnselectedList(companies = []) {
-    //
-    //     // Add to non selected companies if array is valid
-    //     if (companies.length > 0) {
-    //         nonSelectedCompanies.push(...companies);
-    //     }
-    //
-    //     let resultHtml = ``;
-    //
-    //     nonSelectedCompanies.forEach((company) => {
-    //
-    //         if (!alreadySelectedCompanies.includes(company)) {
-    //             resultHtml += `
-    //                         <li class="date-nav-selection">
-    //                         <input type="checkbox" value="checked" onclick="addToSelectedCompanies(['${company}'])"/> ${company}
-    //                         </li>
-    //                     `;
-    //         }
-    //     })
-    //
-    //     $("#companies-navbar").html(resultHtml);
-    // }
 </script>
 </body>
 </html>
