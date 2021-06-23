@@ -28,7 +28,14 @@
     <div class="row">
         <div class="col-sm-4 scroll">
             <p><br/></p>
-            <ul id="companies-navbar" class="nav nav-pills nav-stacked">
+            <ul id="fav-companies-navbar" class="nav nav-pills nav-stacked">
+                <!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
+                <!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
+            </ul>
+            <hr><br>
+            <input type="text" id="filterAvailableCompanies" />
+
+            <ul id="available-companies-navbar" class="nav nav-pills nav-stacked">
                 <!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
                 <!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
             </ul>
@@ -82,6 +89,12 @@
         $(document).on("click", "#removeFavCompany", function () {
             rssAggregator.removeFromFavourites($(this).val());
         })
+
+        // On filter input box
+        $(document).on("keyup", "#filterAvailableCompanies", function () {
+            rssAggregator.filterAvailableCompanies(this.value);
+        })
+
 
         // On selecting a company in list
 

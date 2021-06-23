@@ -23,43 +23,19 @@ RssAggregator.prototype.setAvailableCompanies = function (companies) {
 /** */
 RssAggregator.prototype.regenerateAndSetCompaniesHtml = function () {
 
-    this._companiesHtml = "";
-
     this.favouriteCompaniesListUpdateOnHtml();
 
-    if (this._companiesHtml.length > 0) {
-        this._companiesHtml += "<br><hr>"
-    }
-
     this.availableCompaniesUpdateOnHtml();
-
-    this._companiesHtml = (this._companiesHtml.length > 0) ? this._companiesHtml : "No articles available.";
-
-    $('#companies-navbar').html(this._companiesHtml);
 }
 
 /** */
 RssAggregator.prototype.favouriteCompaniesListUpdateOnHtml = function () {
 
+    let html = '';
+
     this._favouriteCompanies
-        .filter(item => {
-
-            // If filter text string is valid
-            if (
-                typeof this._filterText === "string" &&
-                this._filterText.length > 0
-            ) {
-
-                // Check if filter text is same as company
-                return (
-                    item.slice(0, this._filterText.length) === this._filterText
-                )
-            }
-
-            return true;
-        })
         .forEach((company) => {
-            this._companiesHtml += `
+            html += `
                      <li class="date-nav-selection">
                          <input 
                          type="checkbox" 
@@ -70,6 +46,10 @@ RssAggregator.prototype.favouriteCompaniesListUpdateOnHtml = function () {
                       </li>
             `;
         });
+
+
+    $("#fav-companies-navbar").html(html);
+
 }
 
 
@@ -98,11 +78,33 @@ RssAggregator.prototype.removeFromFavourites = function (company) {
 /** */
 RssAggregator.prototype.availableCompaniesUpdateOnHtml = function () {
 
-    // Generate html for showing available companies list
-    this._availableCompanies.forEach((company) => {
+    // Add filter text box
+    let html = "";
 
-        if (!this._favouriteCompanies.includes(company)) {
-            this._companiesHtml += `
+    // Generate html for showing available companies list
+    this._availableCompanies
+        .filter(item => {
+
+            // If filter text string is valid
+            if (
+                typeof this._filterText === "string" &&
+                this._filterText.length > 0
+            ) {
+
+                // Check if filter text is same as company
+                return (
+                    item.slice(0, this._filterText.length).toLowerCase()
+                    === this._filterText.toLowerCase()
+                )
+            }
+
+            return true;
+        })
+
+        .forEach((company) => {
+
+            if (!this._favouriteCompanies.includes(company)) {
+                html += `
                      <li class="date-nav-selection">
                          <input 
                          id="addFavCompany"
@@ -111,8 +113,10 @@ RssAggregator.prototype.availableCompaniesUpdateOnHtml = function () {
                          /> ${company}
                       </li>
             `;
-        }
-    });
+            }
+        });
+
+    $("#available-companies-navbar").html(html);
 }
 
 /** */
@@ -130,6 +134,12 @@ RssAggregator.prototype.addToFavourites = function (company) {
         // Update html
         this.regenerateAndSetCompaniesHtml();
     }
+}
+
+/** */
+RssAggregator.prototype.filterAvailableCompanies = function (text) {
+    this._filterText = text;
+    this.regenerateAndSetCompaniesHtml();
 }
 
 /** */
