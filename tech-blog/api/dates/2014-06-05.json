@@ -1,0 +1,1 @@
+[{"title":"Create nice gpg keys","description":"<p>The following script creates nice gpg keys, with either an easy to remember key id or a nice start of the fingerprint. It&rsquo;s quite slow (1 key / 0.8 sec), but this is due to the slow key creation in gpg.</p>","link":"https://blog.cugu.eu/post/create-nice-gpg-keys/","owner":"Jonas Plum"}]

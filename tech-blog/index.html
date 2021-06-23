@@ -32,8 +32,9 @@
                 <!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
                 <!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
             </ul>
-            <hr><br>
-            <input type="text" id="filterAvailableCompanies" />
+            <hr>
+            <br>
+            <input type="text" id="filterAvailableCompanies"/>
 
             <ul id="available-companies-navbar" class="nav nav-pills nav-stacked">
                 <!--                <li class="date-nav-selection"><a href="#">2021-06-02</a></li>-->
@@ -43,6 +44,9 @@
         </div>
         <div class="col-sm-8">
             <div id="blog-feed" class="feed-scroll">
+            </div>
+            <div class="text-center">
+                <button id="showMore">Show More</button>
             </div>
             <br>
         </div>
@@ -80,14 +84,29 @@
             }
         });
 
+        // Get all dates and set it
+        $.ajax({
+            url: REQUEST_DOMAIN + "/dates.json",
+            type: "GET",
+            success: function (dates) {
+
+                rssAggregator
+                    .setAvailableDates(dates);
+
+                $(document).trigger("regenerateBlogFeed");
+            }
+        });
+
         // On clicking on add fav company
         $(document).on("click", "#addFavCompany", function () {
-            rssAggregator.addToFavourites($(this).val());
+            rssAggregator.addToFavourites(this.value);
+            addArticles();
         })
 
         // On clicking on remove fav company
         $(document).on("click", "#removeFavCompany", function () {
-            rssAggregator.removeFromFavourites($(this).val());
+            rssAggregator.removeFromFavourites(this.value);
+            addArticles();
         })
 
         // On filter input box
@@ -95,41 +114,43 @@
             rssAggregator.filterAvailableCompanies(this.value);
         })
 
+        // On clicking show more
+        $(document).on("click", "#showMore", function () {
+            $(document).trigger("regenerateBlogFeed");
+        })
 
         // On selecting a company in list
+        $(document).on("regenerateBlogFeed", function () {
 
+            const date = rssAggregator.getCurrentDateFromList();
 
-        // $(document).on("click", ".date-nav-selection", function (e) {
-        //
-        //     const date = e.target.innerText;
-        //
-        //     $.ajax({
-        //         url: DOMAIN + "/" + BUILT_URI + "/dates/" + date + ".json",
-        //         type: "GET",
-        //         success: function (dataResult) {
-        //
-        //             let resultHtml = ``;
-        //
-        //             for (let i = 0; i < dataResult.length; i++) {
-        //                 resultHtml += `
-        //                 <div class="card">
-        //                     <a href="${dataResult[i].link}" target="_blank">
-        //
-        //                         <h2>${dataResult[i].title || ""}</h2>
-        //                       <small>${dataResult[i].owner || ""}</small>
-        //                     </a>
-        //                 </div>
-        //                  <br>
-        //                 `
-        //             }
-        //
-        //             $('#blog-feed').html((resultHtml.length > 0) ? resultHtml : "No articles available.");
-        //         },
-        //         error: function () {
-        //             $('#blog-feed').html("No articles available.");
-        //         }
-        //     });
-        // });
+            if (date) {
+                $.ajax({
+                    url: REQUEST_DOMAIN + '/dates/' + date + ".json",
+                    type: "GET",
+                    success: function (articles) {
+
+                        addArticles(articles);
+
+                        if (!rssAggregator.didNewArticlesShowUp()) {
+                            $(document).trigger("regenerateBlogFeed");
+                        } else {
+                            rssAggregator.resetNewArticlesFoundStatus();
+                        }
+                    },
+                    error: console.log
+                });
+            } else {
+                alert("No more dates.");
+            }
+        });
+
+        function addArticles(articles = []) {
+
+            articles = rssAggregator.returnValidArticles(articles);
+
+            $('#blog-feed').html(rssAggregator.returnArticleHtml(articles));
+        }
     });
 
 

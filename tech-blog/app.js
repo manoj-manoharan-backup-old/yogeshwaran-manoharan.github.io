@@ -1,6 +1,12 @@
 /** */
 function RssAggregator() {
 
+    this._dateIndex = 0;
+    this._previousFilteredArtlicesCount = 0;
+    this._articles = [];
+
+    this._newArticlesFound = false;
+
     this.LOCAL_STORAGE_KEY = "favouriteCompanies"
 
     this._filterText = "";
@@ -17,6 +23,12 @@ RssAggregator.prototype.fetchAndSetAlreadyChosenCompanies = function () {
 /** */
 RssAggregator.prototype.setAvailableCompanies = function (companies) {
     this._availableCompanies = companies;
+    return this;
+}
+
+/** */
+RssAggregator.prototype.setAvailableDates = function (dates) {
+    this._availableDates = dates;
     return this;
 }
 
@@ -140,6 +152,80 @@ RssAggregator.prototype.addToFavourites = function (company) {
 RssAggregator.prototype.filterAvailableCompanies = function (text) {
     this._filterText = text;
     this.regenerateAndSetCompaniesHtml();
+}
+
+/** */
+RssAggregator.prototype.returnValidArticles = function (articles) {
+
+    this._articles.push(...articles);
+
+    const filteredArticles = this._articles
+        .filter(function ({link}) {
+
+            const key = `${link}`;
+
+            return !this.has(key) && this.add(key);
+
+        }, new Set)
+        .filter(article => {
+            return (this._favouriteCompanies.includes(article.owner));
+        })
+
+    if (this._previousFilteredArtlicesCount < filteredArticles.length) {
+        this._previousFilteredArtlicesCount = filteredArticles.length;
+        this._newArticlesFound = true;
+    }
+
+    return filteredArticles;
+}
+
+/** */
+RssAggregator.prototype.didNewArticlesShowUp = function () {
+    return this._newArticlesFound;
+}
+
+/** */
+RssAggregator.prototype.resetNewArticlesFoundStatus = function () {
+    this._newArticlesFound = false;
+}
+
+/** */
+
+/** */
+RssAggregator.prototype.returnArticleHtml = function (articles) {
+
+    let html = '';
+
+    articles
+        .forEach(article => {
+            html += `
+                        <div class="card">
+                            <a href="${article.link}" target="_blank">
+                             <small>${article.owner || ""}</small>
+                                <h2>${article.title || ""}</h2>
+                              <small>${this.fetchDescription(article.description) || ""}</small>
+                            </a>
+                        </div>
+                         <br>
+            `;
+        });
+
+    return html;
+}
+
+/** */
+RssAggregator.prototype.getCurrentDateFromList = function () {
+
+    let date = false;
+
+    try {
+        date = this._availableDates[this._dateIndex];
+        this._dateIndex++;
+    } catch (e) {
+        console.log(e);
+    }
+
+    return date;
 }
 
 /** */
